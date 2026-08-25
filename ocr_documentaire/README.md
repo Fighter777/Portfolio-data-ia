@@ -6,6 +6,12 @@
 
 Numériser et rendre exploitable un manuel des années 1950 par OCR.
 
+## Source étudiée
+
+Le travail porte sur un bulletin technique CIMA de mars 1957, consacré aux tracteurs « série 235 ».
+
+![Couverture du bulletin technique CIMA étudié](assets/bulletin_cima_serie_235_1957.png)
+
 ## Constat
 
 Malgré plusieurs essais, la qualité du scan et l'état du document ne permettent pas une extraction suffisamment fiable. La dégradation du support, le contraste irrégulier et les typographies anciennes génèrent trop d'erreurs pour produire un résultat exploitable.
