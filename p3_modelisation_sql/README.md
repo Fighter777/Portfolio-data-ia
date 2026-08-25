@@ -45,4 +45,5 @@ Le projet d'origine contient le schéma, les scripts SQL, un dictionnaire de don
 
 - [Document technique](livrables/P3_document_technique.pdf)
 - [Liste des requêtes](livrables/P3_liste_requetes.pdf)
+- [Méthodologie de requête SQL](livrables/P3_methodologie_requetes_sql.pdf)
 - [Grille d'auto-évaluation](livrables/P3_grille_evaluation.pdf)
