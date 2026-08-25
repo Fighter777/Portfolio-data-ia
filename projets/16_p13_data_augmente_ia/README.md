@@ -80,10 +80,6 @@ Chaque preuve suit la logique :
 
 Projet en cours.
 
-**[À compléter progressivement]** :
-- veille ;
-- cahier des charges ;
-- comparatifs IA ;
-- registre de décisions ;
-- bilan P6 ;
-- retour critique.
+La partie portfolio est engagée : le dépôt rassemble les fiches des projets OpenClassrooms et personnels, avec une distinction explicite entre réalisations abouties, expérimentations et R&D. Le P6 original est archivé séparément comme livrable historique.
+
+La partie d'amélioration IA du P6 reste à réaliser et devra être documentée dans un espace distinct : cadrage, essais comparatifs, prompts ou outils utilisés, décisions, limites et bilan critique.
