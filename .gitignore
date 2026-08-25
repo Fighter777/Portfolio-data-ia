@@ -1,2 +1,5 @@
 # Sources de présentation conservées localement, non publiées
 **/présentation_originale/
+
+# Captures locales contenant des données non destinées à être publiées
+**/captures_privees/

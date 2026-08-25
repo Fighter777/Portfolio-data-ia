@@ -42,6 +42,22 @@ Les valeurs de genre manquantes sont conservées dans une catégorie `Non rensei
 
 Le pipeline produit une table analytique consolidée et un export CSV. Elle permet d'étudier les effectifs, les utilisateurs uniques, les répartitions par âge, genre et région, ainsi que les écarts de représentation entre les inscrits OpenClassrooms et la population de référence INSEE.
 
+## Aperçu du pipeline
+
+Les scripts SQL sont organisés dans Snowflake, puis dbt construit la chaîne de modèles à partir des données brutes, des couches de préparation et du mart final.
+
+![Espace de travail Snowflake](assets/snowflake_workspace_sql.png)
+
+![DAG dbt du pipeline](assets/dbt_lineage.png)
+
+Le contrôle `dbt build` exécute les modèles et tests associés. La capture ci-dessous montre une exécution réussie de 43 vérifications.
+
+![Exécution réussie de dbt build](assets/dbt_build_succes.png)
+
+Le mart final consolide les indicateurs sociodémographiques par année, région, genre et tranche d'âge.
+
+![Aperçu du mart sociodémographique dans Snowflake](assets/snowflake_mart_apercu.png)
+
 ## Limites
 
 Le projet repose sur des données pédagogiques et une analyse descriptive : les écarts observés ne permettent pas d'établir de lien causal. Les données brutes ne sont pas publiées dans le portfolio.
