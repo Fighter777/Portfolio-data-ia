@@ -3,3 +3,6 @@
 
 # Captures locales contenant des données non destinées à être publiées
 **/captures_privees/
+
+# Documents sources contenant des éléments non destinés à être publiés
+**/sources_privees/
