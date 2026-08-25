@@ -51,6 +51,8 @@ L'objectif n'est pas de reproduire directement un résultat de laboratoire, mais
 7. déterminer si une cellule expérimentale est pertinente ;
 8. comparer avec une solution commerciale.
 
+<img src="assets/schema_rnd_batterie_residentielle.png" alt="Schéma conceptuel d'une batterie résidentielle DIY" width="900">
+
 ## Données à constituer
 
 Pour chaque technologie :

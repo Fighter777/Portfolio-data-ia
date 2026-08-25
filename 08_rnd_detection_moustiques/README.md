@@ -50,6 +50,8 @@ Le projet est actuellement au stade **R&D / étude de faisabilité**.
 7. isoler les verrous techniques ;
 8. définir un banc de validation minimal.
 
+<img src="assets/schema_rnd_detection_moustiques.png" alt="Schéma conceptuel de détection et suivi automatisé de moustiques" width="900">
+
 ## Résultats de l'étude
 
 L'étude a identifié la **détection fiable** comme principal verrou.

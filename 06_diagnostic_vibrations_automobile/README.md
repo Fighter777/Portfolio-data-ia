@@ -22,6 +22,8 @@ Remplacer une appréciation subjective par des mesures permettant d'étudier la 
 - récupération de la vitesse via OBD2 envisagée ;
 - véhicule équipé de roues de 20 pouces.
 
+<img src="assets/schema_acquisition_vibrations.png" alt="Schéma de l'architecture d'acquisition vibratoire automobile" width="900">
+
 ## Données prévues
 
 - accélérations multiaxes ;

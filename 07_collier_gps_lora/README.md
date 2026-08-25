@@ -70,6 +70,10 @@ Des essais terrain avec des **Heltec WiFi LoRa 32 V3 / SX1262** et les antennes 
 
 Ces essais servent de base au dimensionnement de l'architecture radio finale.
 
+<img src="assets/maquette_interface_lora_gps.png" alt="Maquette de l'interface de suivi LoRa GPS" width="420">
+
+> Maquette illustrative de l'interface de suivi : la carte, les points et les données affichées ne constituent pas un relevé terrain.
+
 ## Compétences mobilisées
 
 - IoT ;

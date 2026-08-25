@@ -14,6 +14,8 @@ Permettre à un utilisateur de formuler une demande météo oralement et d'obten
 
 **voix → transcription → extraction du lieu et de l'horizon → Open-Meteo → réponse → synthèse vocale**
 
+<img src="assets/architecture_pipeline_vocal_weather.png" alt="Pipeline de Vocal Weather : Flutter, FastAPI, Whisper, Ollama, Open-Meteo et synthèse vocale" width="900">
+
 ## Technologies
 
 - Flutter ;
@@ -49,6 +51,8 @@ Le prototype réalise une demande météo vocale de bout en bout. Chaque requêt
 Les journaux permettent d'observer les latences réelles sans présenter une mesure unique comme universelle.
 
 Le parcours a été testé en conditions réelles, notamment avec un essai volontairement ambigu sur un nom de ville, inspiré d'un cas ayant posé problème dans un autre projet de formation. Ce test a permis de vérifier le comportement de la chaîne de transcription et d'interprétation sur une formulation moins évidente.
+
+<img src="assets/interface_mobile_vocal_weather.jpg" alt="Interface mobile de Vocal Weather" width="360">
 
 ## Limites
 

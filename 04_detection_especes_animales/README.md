@@ -44,6 +44,8 @@ Jeu d'images organisé par classe, complété par des séquences vidéo de mange
 
 Six entraînements multi-espèces ont été réalisés. Le modèle de référence `ConvNeXt-Small v4` atteint **91,11 % d'accuracy sur le jeu de test**. Les comparaisons montrent qu'augmenter ou uniformiser le volume de données ne suffit pas à améliorer systématiquement le résultat : le tri qualitatif des images reste déterminant.
 
+<img src="assets/detection_oiseaux_video_annotee.png" alt="Détection et identification de plusieurs oiseaux sur une séquence vidéo de mangeoire" width="900">
+
 ![Courbes d'accuracy d'entraînement et de validation du modèle ConvNeXt-Small v4](assets/convnext_small_v4_accuracy.svg)
 
 Le pipeline produit des captures, des prédictions CSV et des vidéos annotées. Des essais sur séquences de mangeoire sont disponibles ; ils ne remplacent pas encore une validation terrain formalisée.
