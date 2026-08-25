@@ -51,6 +51,24 @@ Les quatre profils identifiés sont :
 
 La recommandation privilégie les marchés riches et importateurs, puis les marchés intermédiaires équilibrés. Il s'agit d'une aide à la priorisation et non d'une décision d'implantation autonome.
 
+## Aperçu des analyses
+
+Le nombre de groupes a été confronté à plusieurs critères. Le score de silhouette permet notamment de comparer la cohésion des partitions testées.
+
+![Score de silhouette selon le nombre de clusters](assets/choix_clusters_silhouette.png)
+
+Le dendrogramme issu de la CAH par méthode de Ward donne une lecture complémentaire des rapprochements entre pays.
+
+![Dendrogramme CAH par méthode de Ward](assets/dendrogramme_cah_ward.png)
+
+La projection dans le plan factoriel rend visible la répartition des quatre clusters retenus.
+
+![Clusters K-means dans le plan factoriel](assets/clusters_kmeans_plan_factoriel.png)
+
+Le cercle des corrélations aide à interpréter les axes de l'ACP et les familles d'indicateurs qui structurent les profils de marché.
+
+![Cercle des corrélations PC1 et PC3](assets/cercle_correlations_pc1_pc3.png)
+
 ## Limites
 
 - qualité variable des sources ;
