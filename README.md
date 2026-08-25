@@ -21,11 +21,16 @@ Mes deux axes de travail :
 | [Vocal Weather](02_vocal_weather/) | Application vocale de bout en bout | Flutter, FastAPI, Whisper, Ollama, Open-Meteo, Piper, SQLite |
 | [Transcription locale de réunions](03_transcription_locale_reunions/) | IA locale et validation humaine | Whisper, pyannote, Gradio, CUDA |
 | [Détection d'espèces animales](04_detection_especes_animales/) | Vision par ordinateur sur flux vidéo | MegaDetector, SpeciesNet, PyTorch, CUDA |
-| [P8 — Pipeline sociodémographique](13_p8_pipeline_sociodemographique/) | Data engineering et qualité de données | dbt, Snowflake, Python |
-| [P7 — Tableau de bord de pilotage](12_p7_tableau_bord_powerbi/) | Business intelligence | Power BI, Power Query, DAX |
+| [P3 — Modélisation et interrogation SQL](17_p3_modelisation_sql/) | Modélisation relationnelle | SQL, bases de données |
+| [P4 — Étude de santé publique](18_p4_etude_sante_publique/) | Analyse exploratoire de données publiques | Python, Pandas, visualisation |
+| [P5 — Données immobilières](19_p5_donnees_immobilieres/) | Base de données immobilières | MySQL, SQL |
 | [P6 — Analyse du catalogue d'un caviste](11_p6_analyse_catalogue_caviste/) | Nettoyage et analyse métier | Python, Pandas, Plotly |
-| [P12 — Détection de faux billets](15_p12_detection_faux_billets/) | Machine learning supervisé | Python, scikit-learn |
+| [P7 — Tableau de bord de pilotage](12_p7_tableau_bord_powerbi/) | Business intelligence | Power BI, Power Query, DAX |
+| [P8 — Pipeline sociodémographique](13_p8_pipeline_sociodemographique/) | Data engineering et qualité de données | dbt, Snowflake, Python |
+| [P9 — Analyse des ventes LaPage](20_p9_analyse_ventes_lapage/) | Application de data visualisation | Python, Pandas, Streamlit |
+| [P10 — Accès à l'eau potable](21_p10_acces_eau_potable/) | Tableau de bord de priorisation | Power BI, Power Query |
 | [P11 — Étude de marché internationale](14_p11_etude_marche_internationale/) | Analyse exploratoire et segmentation | Python, Pandas, scikit-learn |
+| [P12 — Détection de faux billets](15_p12_detection_faux_billets/) | Machine learning supervisé | Python, scikit-learn |
 | [P13 — Projet data augmenté avec l'IA](16_p13_data_augmente_ia/) | Conduite de projet, IA critique et documentation | Python, Pandas, scikit-learn |
 
 ## Projets R&D
