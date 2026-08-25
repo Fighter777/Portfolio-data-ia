@@ -52,3 +52,7 @@ Le projet repose sur des données pédagogiques et une analyse descriptive : les
 - monitoring de fraîcheur et de qualité ;
 - tests supplémentaires sur les jointures et les évolutions de structure ;
 - visualisation des indicateurs à partir du mart final.
+
+## Source
+
+- [Dépôt dbt du projet P8](https://github.com/Fighter777/projet_P8)
