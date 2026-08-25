@@ -56,3 +56,12 @@ Un support de présentation de 45 minutes relie les démonstrations aux notions 
 ## Livrable
 
 - [Support de présentation — Place du Numérique 2026](livrables/atelier_ia_place_du_numerique_2026.pptx)
+
+## Références techniques
+
+Les démonstrations de conversion vocale et de visage synthétique s'appuient sur des outils open source tiers. Ils sont présentés dans un cadre pédagogique, avec une attention particulière au consentement et aux risques de manipulation.
+
+- [Retrieval-based Voice Conversion WebUI](https://github.com/Fighter777/Retrieval-based-Voice-Conversion-WebUI)
+- [DeepFaceLive](https://github.com/Fighter777/DeepFaceLive)
+- [DeepixLab](https://github.com/Fighter777/DeepixLab)
+- [DeepFaceLab](https://github.com/Fighter777/DeepFaceLab)
