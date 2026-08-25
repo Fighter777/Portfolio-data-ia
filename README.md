@@ -24,7 +24,7 @@ Deux axes structurent ce portfolio :
 
 ## <img src="assets/icons/openclassrooms.svg" width="30" valign="middle" alt="OpenClassrooms"> Parcours OpenClassrooms
 
-| Outil | P3 | P4 | P5 | P6 | P7 | P8 | P9 | P10 | P11 | P12 | P13 |
+| Outil | [P3](#p3) | [P4](#p4) | [P5](#p5) | [P6](#p6) | [P7](#p7) | [P8](#p8) | [P9](#p9) | [P10](#p10) | [P11](#p11) | [P12](#p12) | [P13](#p13) |
 | --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | <img src="assets/logos/python.svg" width="20" alt="Python"> **Python** |  | ✓ |  | ✓ |  | ✓ | ✓ |  | ✓ | ✓ | ✓ |
 | <img src="assets/logos/sql.svg" width="20" alt="SQL"> **SQL** | ✓ |  | ✓ |  |  | ✓ |  |  |  |  |  |
@@ -41,21 +41,22 @@ Deux axes structurent ce portfolio :
 
 | Projet | Data | IA / ML | Vision | Audio | API / App | GPU | IoT / embarqué | R&D / expérimentation |
 | --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| [Transcription locale](transcription_locale_reunions/) | ✓ | ✓ |  | ✓ | ✓ | ✓ |  | ✓ |
-| [Vocal Weather](vocal_weather/) | ✓ | ✓ |  | ✓ | ✓ |  |  | ✓ |
-| [Identification d'oiseaux](detection_especes_animales/) | ✓ | ✓ | ✓ |  |  | ✓ |  | ✓ |
-| [Atelier IA](atelier_ia_place_du_numerique/) |  | ✓ | ✓ | ✓ | ✓ |  |  | ✓ |
-| [OCR sur manuel ancien](ocr_documentaire/) | ✓ |  | ✓ |  |  |  |  | ✓ |
-| [Tracker GPS / LoRa](collier_gps_lora/) | ✓ |  |  |  |  |  | ✓ | ✓ |
-| [Diagnostic vibratoire](diagnostic_vibrations_automobile/) | ✓ |  |  |  |  |  | ✓ | ✓ |
-| [Détection de moustiques](rnd_detection_moustiques/) |  | ✓ | ✓ |  |  |  |  | ✓ |
-| [LLM locaux](evaluation_llm_locaux/) |  | ✓ |  |  | ✓ | ✓ |  | ✓ |
-| [Batterie résidentielle DIY](rnd_batterie_residentielle_diy/) | ✓ |  |  |  |  |  | ✓ | ✓ |
+| [Transcription locale](#transcription) | ✓ | ✓ |  | ✓ | ✓ | ✓ |  | ✓ |
+| [Vocal Weather](#vocal-weather) | ✓ | ✓ |  | ✓ | ✓ |  |  | ✓ |
+| [Identification d'oiseaux](#oiseaux) | ✓ | ✓ | ✓ |  |  | ✓ |  | ✓ |
+| [Atelier IA](#atelier-ia) |  | ✓ | ✓ | ✓ | ✓ |  |  | ✓ |
+| [OCR sur manuel ancien](#ocr) | ✓ |  | ✓ |  |  |  |  | ✓ |
+| [Tracker GPS / LoRa](#lora) | ✓ |  |  |  |  |  | ✓ | ✓ |
+| [Diagnostic vibratoire](#vibrations) | ✓ |  |  |  |  |  | ✓ | ✓ |
+| [Détection de moustiques](#moustiques) |  | ✓ | ✓ |  |  |  |  | ✓ |
+| [LLM locaux](#llm-locaux) |  | ✓ |  |  | ✓ | ✓ |  | ✓ |
+| [Batterie résidentielle DIY](#batterie) | ✓ |  |  |  |  |  | ✓ | ✓ |
 
 ---
 
 # <img src="assets/icons/openclassrooms.svg" width="34" valign="middle" alt="OpenClassrooms"> Projets OpenClassrooms
 
+<a id="p3"></a>
 ## <img src="assets/icons/p3-database.svg" width="30" alt="Base de données"> P3 — Modélisation et interrogation SQL
 
 <p>
@@ -70,6 +71,7 @@ Le projet documente le chemin complet **modélisation → chargement → vérifi
 
 ---
 
+<a id="p4"></a>
 ## <img src="assets/icons/p4-health.svg" width="30" alt="Santé publique"> P4 — Étude de santé publique
 
 <p>
@@ -86,6 +88,7 @@ Analyse exploratoire de **quatre jeux de données FAO** : population, disponibil
 
 ---
 
+<a id="p5"></a>
 ## <img src="assets/icons/p5-real-estate.svg" width="30" alt="Immobilier"> P5 — Exploitation de données immobilières avec SQL
 
 <p>
@@ -98,6 +101,7 @@ Structuration d'une base immobilière reliant ventes, biens, communes, départem
 
 ---
 
+<a id="p6"></a>
 ## <img src="assets/icons/p6-wine.svg" width="30" alt="Caviste"> P6 — Analyse du catalogue d'un caviste
 
 <p>
@@ -114,6 +118,7 @@ Réconciliation de trois sources ERP / e-commerce puis analyse des prix, ventes,
 
 ---
 
+<a id="p7"></a>
 ## <img src="assets/icons/p7-dashboard.svg" width="30" alt="Dashboard"> P7 — Tableau de bord de pilotage
 
 <p>
@@ -130,6 +135,7 @@ Conception d'un dashboard Power BI pour suivre les projets IT et Marketing de l'
 
 ---
 
+<a id="p8"></a>
 ## <img src="assets/icons/p8-pipeline.svg" width="30" alt="Pipeline"> P8 — Pipeline sociodémographique
 
 <p>
@@ -146,6 +152,7 @@ Pipeline Data Engineering sur **4 646 inscrits**, enrichis par des données INSE
 
 ---
 
+<a id="p9"></a>
 ## <img src="assets/icons/p9-books.svg" width="30" alt="Librairie"> P9 — Analyse des ventes LaPage
 
 <p>
@@ -161,6 +168,7 @@ Application Streamlit permettant d'explorer les ventes, les KPI, les produits et
 
 ---
 
+<a id="p10"></a>
 ## <img src="assets/icons/p10-water.svg" width="30" alt="Eau"> P10 — Accès à l'eau potable
 
 <p>
@@ -175,6 +183,7 @@ Le dashboard associe cartes, lecture régionale et matrice de priorisation afin 
 
 ---
 
+<a id="p11"></a>
 ## <img src="assets/icons/p11-world.svg" width="30" alt="International"> P11 — Étude de marché internationale
 
 <p>
@@ -191,6 +200,7 @@ Le dashboard associe cartes, lecture régionale et matrice de priorisation afin 
 
 ---
 
+<a id="p12"></a>
 ## <img src="assets/icons/p12-banknote.svg" width="30" alt="Billet"> P12 — Détection de faux billets
 
 <p>
@@ -207,6 +217,7 @@ Comparaison de régression logistique, KNN, Random Forest et K-means sur **1 500
 
 ---
 
+<a id="p13"></a>
 ## <img src="assets/icons/p13-ai.svg" width="30" alt="IA"> P13 — Projet Data augmenté avec l'IA
 
 <p>
@@ -225,6 +236,7 @@ Dernier projet du parcours : amélioration critique du P6 avec l'IA, veille tech
 
 # <img src="assets/icons/atelier-ai.svg" width="34" valign="middle" alt="IA appliquée"> Projets personnels — IA appliquée
 
+<a id="transcription"></a>
 ## <img src="assets/icons/transcription.svg" width="30" alt="Microphone"> Transcription locale et assistée de réunions
 
 <p>
@@ -246,6 +258,7 @@ Application locale destinée à transformer de longues réunions en documents ex
 
 ---
 
+<a id="vocal-weather"></a>
 ## <img src="assets/icons/weather.svg" width="30" alt="Météo"> Vocal Weather — Assistant météo vocal
 
 <p>
@@ -268,6 +281,7 @@ Chaque requête est historisée et les étapes du pipeline sont journalisées av
 
 ---
 
+<a id="oiseaux"></a>
 ## <img src="assets/icons/bird.svg" width="30" alt="Oiseau"> Détection et identification d'oiseaux
 
 <p>
@@ -288,6 +302,7 @@ Pipeline de vision combinant détection d'animaux, classification d'espèces et 
 
 ---
 
+<a id="atelier-ia"></a>
 ## <img src="assets/icons/atelier-ai.svg" width="30" alt="IA"> Atelier « Comprendre l'IA par la démonstration »
 
 <p>
@@ -308,6 +323,7 @@ Conception d'un atelier de **45 minutes** pour Place du Numérique 2026. Six dé
 
 Ces projets sont présentés selon leur **état réel** : retour d'expérience, étude de faisabilité, préparation expérimentale ou prototype. Une hypothèse ou une simulation n'est pas présentée comme une mesure terrain.
 
+<a id="ocr"></a>
 ## <img src="assets/icons/ocr.svg" width="28" alt="Document"> OCR sur manuel ancien
 
 <img src="assets/badges/retour-experience.svg" height="24" alt="Retour d'expérience">
@@ -320,6 +336,7 @@ Essai d'OCR sur un bulletin technique CIMA de 1957. La dégradation du support, 
 
 ---
 
+<a id="vibrations"></a>
 ## <img src="assets/icons/vibration.svg" width="28" alt="Vibrations"> Diagnostic vibratoire automobile
 
 <p>
@@ -335,6 +352,7 @@ Instrumentation prévue avec **2 EVAL-ADXL357Z**, ESP32 et vitesse véhicule OBD
 
 ---
 
+<a id="lora"></a>
 ## <img src="assets/icons/lora.svg" width="28" alt="Radio"> Tracker GPS / LoRa basse consommation
 
 <img src="assets/badges/rnd-en-cours.svg" height="24" alt="R&D en cours">
@@ -351,6 +369,7 @@ Conception d'un tracker GNSS/LoRa/BLE adapté à un animal, avec adaptation des 
 
 ---
 
+<a id="moustiques"></a>
 ## <img src="assets/icons/mosquito.svg" width="28" alt="Moustique"> Détection et suivi automatisé de moustiques
 
 <img src="assets/badges/etude-faisabilite.svg" height="24" alt="Étude de faisabilité">
@@ -363,6 +382,7 @@ Conception d'un tracker GNSS/LoRa/BLE adapté à un animal, avec adaptation des 
 
 ---
 
+<a id="llm-locaux"></a>
 ## <img src="assets/icons/llm.svg" width="28" alt="LLM local"> Évaluation de LLM locaux
 
 <p>
@@ -378,6 +398,7 @@ Expérimentation de modèles exécutés localement pour des usages de développe
 
 ---
 
+<a id="batterie"></a>
 ## <img src="assets/icons/battery.svg" width="28" alt="Batterie"> Batterie résidentielle DIY
 
 <img src="assets/badges/etude-faisabilite.svg" height="24" alt="Étude de faisabilité">
