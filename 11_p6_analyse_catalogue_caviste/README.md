@@ -56,4 +56,4 @@ Le notebook produit un jeu de données consolidé, contrôle les incohérences d
 ## Livrables
 
 - [Notebook d'analyse](livrables/P6_analyse_catalogue_caviste.ipynb)
-- [Présentation de synthèse](livrables/P6_presentation_analyse_catalogue_caviste.pptx)
+- [Présentation de synthèse (PDF)](livrables/P6_presentation_analyse_catalogue_caviste.pdf)

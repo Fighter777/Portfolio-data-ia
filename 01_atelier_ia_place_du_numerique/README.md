@@ -55,7 +55,7 @@ Un support de présentation de 45 minutes relie les démonstrations aux notions 
 
 ## Livrable
 
-- [Support de présentation — Place du Numérique 2026](livrables/atelier_ia_place_du_numerique_2026.pptx)
+- [Support de présentation — Place du Numérique 2026 (PDF)](livrables/atelier_ia_place_du_numerique_2026.pdf)
 
 ## Références techniques
 
