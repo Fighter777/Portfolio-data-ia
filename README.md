@@ -15,20 +15,29 @@ Mes deux axes de travail :
 
 ## Projets sélectionnés
 
-| Projet | Compétence clé | Technologies | Statut |
-| --- | --- | --- | --- |
-| [Atelier « Comprendre l'IA par la démonstration »](projets/01_atelier_ia_place_du_numerique/) | Médiation, IA responsable | Vision, voix, LLM, API | Documenté |
-| [Vocal Weather](projets/02_vocal_weather/) | Application vocale de bout en bout | Flutter, FastAPI, Whisper, Ollama, Open-Meteo, Piper, SQLite | Prototype fonctionnel |
-| [Transcription locale de réunions](projets/03_transcription_locale_reunions/) | IA locale et validation humaine | Whisper, pyannote, Gradio, CUDA | Fonctionnel |
-| [Détection d'espèces animales](projets/04_detection_especes_animales/) | Vision par ordinateur sur flux vidéo | MegaDetector, SpeciesNet, PyTorch, CUDA | Pipeline et modèle entraîné |
-| [P8 — Pipeline sociodémographique](projets/13_p8_pipeline_sociodemographique/) | Data engineering et qualité de données | dbt, Snowflake, Python | Documenté |
-| [P7 — Tableau de bord de pilotage](projets/12_p7_tableau_bord_powerbi/) | Business intelligence | Power BI, Power Query, DAX | Documenté |
-| [P6 — Analyse du catalogue d'un caviste](projets/11_p6_analyse_catalogue_caviste/) | Nettoyage et analyse métier | Python, Pandas, Plotly | Documenté |
-| [P12 — Détection de faux billets](projets/15_p12_detection_faux_billets/) | Machine learning supervisé | Python, scikit-learn | Documenté |
-| [P11 — Étude de marché internationale](projets/14_p11_etude_marche_internationale/) | Analyse exploratoire et segmentation | Python, Pandas, scikit-learn | Documenté |
-| [P13 — Projet data augmenté avec l'IA](projets/16_p13_data_augmente_ia/) | Conduite de projet, IA critique et documentation | Python, Pandas, scikit-learn | En cours |
+| Projet | Compétence clé | Technologies |
+| --- | --- | --- |
+| [Atelier « Comprendre l'IA par la démonstration »](01_atelier_ia_place_du_numerique/) | Médiation, IA responsable | Vision, voix, LLM, API |
+| [Vocal Weather](02_vocal_weather/) | Application vocale de bout en bout | Flutter, FastAPI, Whisper, Ollama, Open-Meteo, Piper, SQLite |
+| [Transcription locale de réunions](03_transcription_locale_reunions/) | IA locale et validation humaine | Whisper, pyannote, Gradio, CUDA |
+| [Détection d'espèces animales](04_detection_especes_animales/) | Vision par ordinateur sur flux vidéo | MegaDetector, SpeciesNet, PyTorch, CUDA |
+| [P8 — Pipeline sociodémographique](13_p8_pipeline_sociodemographique/) | Data engineering et qualité de données | dbt, Snowflake, Python |
+| [P7 — Tableau de bord de pilotage](12_p7_tableau_bord_powerbi/) | Business intelligence | Power BI, Power Query, DAX |
+| [P6 — Analyse du catalogue d'un caviste](11_p6_analyse_catalogue_caviste/) | Nettoyage et analyse métier | Python, Pandas, Plotly |
+| [P12 — Détection de faux billets](15_p12_detection_faux_billets/) | Machine learning supervisé | Python, scikit-learn |
+| [P11 — Étude de marché internationale](14_p11_etude_marche_internationale/) | Analyse exploratoire et segmentation | Python, Pandas, scikit-learn |
+| [P13 — Projet data augmenté avec l'IA](16_p13_data_augmente_ia/) | Conduite de projet, IA critique et documentation | Python, Pandas, scikit-learn |
 
-Les projets expérimentaux et R&D — dont le collier GPS/LoRa, l'OCR sur archives dégradées et les essais de LLM locaux — sont regroupés dans [l'index complet](projets/).
+## Projets R&D
+
+| Projet | Axe d’exploration | Technologies |
+| --- | --- | --- |
+| [OCR sur manuel ancien](05_ocr_documentaire/) | Limites de l’OCR sur archives dégradées | Python, OCR, vision par ordinateur |
+| [Diagnostic vibratoire automobile](06_diagnostic_vibrations_automobile/) | Protocole de mesure et analyse vibratoire | ESP, accéléromètres, Python |
+| [Tracker GPS / LoRa](07_collier_gps_lora/) | Localisation basse consommation | LoRa, GNSS, BLE, systèmes embarqués |
+| [Détection et suivi de moustiques](08_rnd_detection_moustiques/) | Étude de faisabilité vision/IoT | Vision par ordinateur, IoT |
+| [Évaluation de LLM locaux](09_evaluation_llm_locaux/) | Comparaison pratique de modèles locaux | LLM, API locale, inférence |
+| [Batterie résidentielle DIY](10_rnd_batterie_residentielle_diy/) | Étude de faisabilité énergétique | Électronique, stockage d’énergie |
 
 ## Projet à la une : médiation IA responsable
 
