@@ -2,21 +2,17 @@
 
 ## Contexte
 
-Projet de Business Intelligence réalisé dans le parcours **Data Analyst OpenClassrooms**.
+Projet de Business Intelligence réalisé dans le parcours **Data Analyst OpenClassrooms**, autour de l'entreprise fictive Sanitoral.
 
 ## Besoin métier
 
-Transformer des données opérationnelles en indicateurs de pilotage destinés à des utilisateurs métier.
+Mettre à disposition un tableau de bord interactif de suivi des projets IT et Marketing pour identifier les retards, dérives de coûts et écarts sur les livrables.
 
-**[À compléter depuis le brief]**
+Les publics visés sont la direction générale, les directions régionales et les directions pays.
 
 ## Données
 
-**[À compléter]** :
-- sources ;
-- modèle ;
-- fréquence de mise à jour ;
-- transformations Power Query.
+Données fictives de projets, de phases et d'indicateurs de performance : coûts, délais et livrables. Les données sont préparées dans Power Query avant modélisation dans Power BI.
 
 ## Démarche
 
@@ -36,7 +32,7 @@ Transformer des données opérationnelles en indicateurs de pilotage destinés �
 
 ## Résultats
 
-**[À compléter]**
+Le livrable est un tableau de bord Power BI interactif, filtrable par région, pays et type de projet. Il fournit une lecture globale des performances et aide à prioriser les projets présentant un écart significatif entre prévision et réalisé.
 
 ## Compétences mobilisées
 
@@ -49,4 +45,4 @@ Transformer des données opérationnelles en indicateurs de pilotage destinés �
 
 ## Limites et prochaines pistes
 
-**[À compléter]**
+Le cas est construit sur des données pédagogiques. En contexte réel, le modèle devrait être alimenté par des sources opérationnelles actualisées, avec des règles de qualité et de gouvernance documentées.
