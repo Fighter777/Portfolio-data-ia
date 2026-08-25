@@ -20,7 +20,6 @@ Mes deux axes de travail :
 | Atelier « Comprendre l'IA par la démonstration » — Place du Numérique 2026 | Médiation, IA responsable | Vision, voix, LLM, API | À documenter |
 | Vocal Weather | Application vocale de bout en bout | Flutter, FastAPI, Whisper, Ollama, Open-Meteo, Piper, SQLite | À documenter |
 | Détection d'espèces animales | Vision par ordinateur sur flux vidéo | MegaDetector, SpeciesNet, PyTorch, CUDA | À documenter |
-| Projets OCR | Extraction et traitement de documents | Python, OCR, vision par ordinateur | À documenter |
 | P13 — Projet data augmenté avec l'IA | Conduite de projet, IA critique et documentation | Python, Pandas, scikit-learn | En cours |
 | P8 — Pipeline sociodémographique | Data engineering et qualité de données | dbt, Snowflake, Python | À documenter |
 | P7 — Tableau de bord de pilotage | Business intelligence | Power BI, Power Query, DAX | À documenter |

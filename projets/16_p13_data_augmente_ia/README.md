@@ -1,0 +1,89 @@
+# P13 — Piloter un projet Data augmenté avec l'IA et créer son portfolio
+
+## Contexte
+
+Dernier projet du parcours **Data Analyst OpenClassrooms**.
+
+Le projet reprend le livrable du P6 afin de l'améliorer avec l'aide de l'IA selon une démarche **critique, comparative et documentée**, puis construit le portfolio professionnel.
+
+## Objectifs
+
+- veille métier et technologique ;
+- identification du besoin ;
+- cahier des charges fonctionnel ;
+- organisation du projet ;
+- expérimentation ;
+- comparaison d'options ;
+- documentation et traçabilité ;
+- présentation de preuves de compétences.
+
+## Partie 1 — Amélioration du P6
+
+Les essais doivent conserver la trace :
+- des outils ;
+- des prompts ;
+- des variantes ;
+- des résultats ;
+- des décisions.
+
+Critères possibles :
+- qualité ;
+- biais ;
+- temps ;
+- reproductibilité ;
+- sécurité ;
+- conformité ;
+- maintenabilité.
+
+## Cadrage métier
+
+Le cahier des charges doit préciser :
+- contexte ;
+- parties prenantes ;
+- problématique ;
+- périmètre ;
+- contraintes ;
+- critères de réussite ;
+- livrables.
+
+## Pilotage
+
+- découpage en lots ;
+- backlog ;
+- estimations ;
+- dépendances ;
+- définition de Done ;
+- jalons ;
+- risques ;
+- validations.
+
+## Documentation
+
+- hypothèses ;
+- essais ;
+- choix techniques ;
+- limites ;
+- biais ;
+- environnement ;
+- versions ;
+- instructions d'exécution.
+
+## Partie 2 — Portfolio
+
+Le portfolio présente des projets OpenClassrooms et des projets personnels pertinents.
+
+Chaque preuve suit la logique :
+
+**contexte → besoin métier → données → démarche → résultats → impact / recommandations → limites → prochaines pistes**
+
+## État actuel
+
+Projet en cours.
+
+**[À compléter progressivement]** :
+- veille ;
+- cahier des charges ;
+- comparatifs IA ;
+- registre de décisions ;
+- bilan P6 ;
+- retour critique.
