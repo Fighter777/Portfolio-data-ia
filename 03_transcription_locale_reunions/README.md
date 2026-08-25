@@ -70,6 +70,8 @@ L'application produit :
 - `SRT` ;
 - `VTT`.
 
+<img src="assets/interface_principale_transcription.jpg" alt="Interface principale de transcription locale" width="900">
+
 Elle permet également une relecture ciblée des **30 segments présentant la confiance acoustique la plus faible**.
 
 <img src="assets/relecture_ciblee_transcription.jpg" alt="Interface de relecture ciblée d'un segment à vérifier" width="900">
