@@ -52,3 +52,7 @@ Un support de présentation de 45 minutes relie les démonstrations aux notions 
 - recueillir les retours du public pour faire évoluer le format ;
 - adapter le niveau de détail technique au public ;
 - maintenir les démonstrations et leur cadre éthique à jour.
+
+## Livrable
+
+- [Support de présentation — Place du Numérique 2026](livrables/atelier_ia_place_du_numerique_2026.pptx)
