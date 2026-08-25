@@ -48,6 +48,31 @@ Sur le jeu de test, le seuil standard de 0,50 laisse encore passer deux faux bil
 
 Le projet fournit un notebook d'analyse, un modèle sauvegardé avec son prétraitement et un script de prédiction robuste au séparateur du fichier CSV. La démarche trace les comparaisons réalisées plutôt que de s'appuyer uniquement sur l'accuracy globale.
 
+## Livrables
+
+- [Notebook d'analyse](livrables/P12_analyse_detection_faux_billets.ipynb)
+- [Modèle sauvegardé](livrables/best_billet_model_from_template.joblib)
+- [Script de prédiction](livrables/predict_billets.py)
+- [Présentation de synthèse (PDF)](livrables/P12_presentation_detection_faux_billets.pdf)
+
+## Aperçu de l'évaluation
+
+Les 37 valeurs manquantes de `margin_low` sont prises en charge par une imputation KNN fondée sur les cinq voisins les plus proches.
+
+![Principe de l'imputation KNN](assets/imputation_knn.png)
+
+Les modèles sont comparés selon l'accuracy, mais surtout selon les métriques associées aux faux billets.
+
+![Comparaison des modèles](assets/comparaison_modeles.png)
+
+La matrice de confusion sert à visualiser le compromis entre détection des faux billets et mise en alerte de vrais billets. Cette illustration correspond à un essai avec un seuil de décision de 0,75.
+
+![Matrice de confusion au seuil 0,75](assets/matrice_confusion_seuil_075.png)
+
+K-means fait partie des méthodes comparées ; sa répartition confirme son rôle de point de référence non supervisé face aux modèles de classification supervisée.
+
+![Répartition des billets par cluster K-means](assets/repartition_kmeans.png)
+
 ## Limites
 
 - représentativité ;
