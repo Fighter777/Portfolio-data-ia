@@ -34,6 +34,28 @@ Données fictives de projets, de phases et d'indicateurs de performance : coûts
 
 Le livrable est un tableau de bord Power BI interactif, filtrable par région, pays et type de projet. Il fournit une lecture globale des performances et aide à prioriser les projets présentant un écart significatif entre prévision et réalisé.
 
+Le fichier Power BI est disponible dans [livrables/P7_tableau_bord_sanitoral.pbix](livrables/P7_tableau_bord_sanitoral.pbix).
+
+### Aperçu du tableau de bord
+
+**Vue globale** — synthèse des KPI, zones à surveiller et carte de répartition.
+
+![Vue globale du tableau de bord](assets/tableau_bord_vue_globale.png)
+
+**Vue régionale** — comparaison des coûts, délais et livrables, avec accès au détail des projets en alerte.
+
+![Vue régionale du tableau de bord](assets/tableau_bord_vue_regionale.png)
+
+**Vue détaillée** — suivi projet par projet et lecture des écarts par phase.
+
+![Vue détaillée du tableau de bord](assets/tableau_bord_vue_detaillee.png)
+
+La page de documentation explicite les KPI, seuils d'alerte, processus de mise à jour et modèle de données. Le *Product Strategy Canvas* formalise les besoins des utilisateurs cibles.
+
+![Documentation du tableau de bord](assets/tableau_bord_documentation.png)
+
+![Product Strategy Canvas](assets/product_strategy_canvas.png)
+
 ## Compétences mobilisées
 
 - Business Intelligence ;
