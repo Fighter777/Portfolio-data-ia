@@ -38,6 +38,12 @@ Les indicateurs de dynamique couvrent principalement la période 2013–2017, se
 - segmentation ;
 - interprétation métier.
 
+## Livrables
+
+- [Préparation, nettoyage et analyse exploratoire](livrables/P11_preparation_nettoyage_analyse_exploratoire.ipynb)
+- [Clustering et visualisations](livrables/P11_clustering_visualisations.ipynb)
+- [Présentation de synthèse (PDF)](livrables/P11_presentation_etude_marche_volaille.pdf)
+
 ## Résultats
 
 L'ACP met notamment en évidence la maturité commerciale, la taille du marché de la volaille, le poids de la volaille dans l'alimentation et la dépendance aux importations. La sélection finale de **quatre clusters** s'appuie sur une lecture croisée du dendrogramme, du coude et du score de silhouette.
