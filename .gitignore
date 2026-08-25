@@ -6,3 +6,6 @@
 
 # Documents sources contenant des éléments non destinés à être publiés
 **/sources_privees/
+
+# Fichiers de verrouillage créés temporairement par Microsoft Office
+**/~$*
