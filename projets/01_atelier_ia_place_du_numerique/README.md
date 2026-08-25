@@ -59,7 +59,9 @@ Un support de présentation de 45 minutes relie les démonstrations aux notions 
 
 ## Références techniques
 
-Les démonstrations de conversion vocale et de visage synthétique s'appuient sur des outils open source tiers. Ils sont présentés dans un cadre pédagogique, avec une attention particulière au consentement et aux risques de manipulation.
+Les démonstrations de conversion vocale et de visage synthétique s'appuient sur des dépôts dérivés d'outils open source. Ils ont été mis à jour et, selon les besoins de démonstration, adaptés. Les projets sources restent crédités ; les modèles et médias associés ne sont pas publiés.
+
+Ils sont présentés dans un cadre pédagogique, avec une attention particulière au consentement et aux risques de manipulation.
 
 - [Retrieval-based Voice Conversion WebUI](https://github.com/Fighter777/Retrieval-based-Voice-Conversion-WebUI)
 - [DeepFaceLive](https://github.com/Fighter777/DeepFaceLive)
