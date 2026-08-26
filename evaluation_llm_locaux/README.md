@@ -1,4 +1,19 @@
-# Évaluation de modèles de langage exécutés localement
+<p align="right"><a href="../README.md">← Retour au portfolio</a></p>
+
+# <img src="../assets/icons/llm.svg" width="38" valign="middle" alt="LLM local"> Évaluation de modèles de langage exécutés localement
+
+<p>
+  <img src="../assets/logos/ollama.svg" width="30" alt="Ollama" title="Ollama">
+  <img src="../assets/logos/nvidia.svg" width="30" alt="GPU / inférence locale" title="GPU / inférence locale">
+</p>
+
+<img src="../assets/badges/benchmark-formaliser.svg" height="24" alt="Statut : Benchmark à formaliser">
+
+---
+
+<p align="center">
+  <img src="assets/architecture_benchmark_llm.svg" width="760" alt="Architecture prévue du benchmark reproductible">
+</p>
 
 ## Contexte
 
@@ -94,3 +109,7 @@ Exemples de mesures à publier :
 - conserver les versions exactes ;
 - comparer plusieurs modèles sur le même matériel ;
 - produire une synthèse multicritère.
+
+---
+
+[← Retour au portfolio](../README.md)

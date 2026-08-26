@@ -1,6 +1,16 @@
-# Détection et identification d'oiseaux à la mangeoire
+<p align="right"><a href="../README.md">← Retour au portfolio</a></p>
 
-> **Statut :** pipeline fonctionnel et modèle d'identification entraîné ; validation terrain à poursuivre.
+# <img src="../assets/icons/bird.svg" width="38" valign="middle" alt="Oiseaux"> Détection et identification d'oiseaux à la mangeoire
+
+<p>
+  <img src="../assets/logos/python.svg" width="30" alt="Python" title="Python">
+  <img src="../assets/logos/pytorch.svg" width="30" alt="PyTorch" title="PyTorch">
+  <img src="../assets/logos/nvidia.svg" width="30" alt="CUDA" title="CUDA">
+</p>
+
+<img src="../assets/badges/pipeline-fonctionnel.svg" height="24" alt="Statut : Pipeline fonctionnel">
+
+---
 
 ## Contexte
 
@@ -10,13 +20,6 @@ Projet de vision par ordinateur appliqué à l'analyse d'images et de vidéos d'
 
 Détecter automatiquement la présence d'un animal dans un flux vidéo, puis identifier l'espèce lorsque la qualité de l'image le permet.
 
-## Technologies
-
-- MegaDetector ;
-- SpeciesNet ;
-- PyTorch ;
-- CUDA.
-- ConvNeXt-Small ;
 
 ## Données
 
@@ -44,9 +47,13 @@ Jeu d'images organisé par classe, complété par des séquences vidéo de mange
 
 Six entraînements multi-espèces ont été réalisés. Le modèle de référence `ConvNeXt-Small v4` atteint **91,11 % d'accuracy sur le jeu de test**. Les comparaisons montrent qu'augmenter ou uniformiser le volume de données ne suffit pas à améliorer systématiquement le résultat : le tri qualitatif des images reste déterminant.
 
-<img src="assets/detection_oiseaux_video_annotee.png" alt="Détection et identification de plusieurs oiseaux sur une séquence vidéo de mangeoire" width="900">
+<p align="center">
+  <img src="assets/detection_oiseaux_video_annotee.png" width="760" alt="Détection et identification de plusieurs oiseaux sur une séquence vidéo de mangeoire">
+</p>
 
-![Courbes d'accuracy d'entraînement et de validation du modèle ConvNeXt-Small v4](assets/convnext_small_v4_accuracy.svg)
+<p align="center">
+  <img src="assets/convnext_small_v4_accuracy.svg" width="760" alt="Courbes d'accuracy d'entraînement et de validation du modèle ConvNeXt-Small v4">
+</p>
 
 Le pipeline produit des captures, des prédictions CSV et des vidéos annotées. Des essais sur séquences de mangeoire sont disponibles ; ils ne remplacent pas encore une validation terrain formalisée.
 
@@ -71,3 +78,7 @@ Le pipeline produit des captures, des prédictions CSV et des vidéos annotées.
 
 - [Dépôt du projet](https://github.com/Fighter777/animal_species_detection/)
 - [Suivi des entraînements](https://github.com/Fighter777/animal_species_detection/blob/main/docs/suivi_entrainements.md)
+
+---
+
+[← Retour au portfolio](../README.md)

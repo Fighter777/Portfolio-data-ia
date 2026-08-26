@@ -1,4 +1,10 @@
-# Étude R&D — Détection et suivi automatisé de moustiques
+<p align="right"><a href="../README.md">← Retour au portfolio</a></p>
+
+# <img src="../assets/icons/mosquito.svg" width="38" valign="middle" alt="Détection de moustiques"> Étude R&D — Détection et suivi automatisé de moustiques
+
+<img src="../assets/badges/etude-faisabilite.svg" height="24" alt="Statut : Étude de faisabilité">
+
+---
 
 ## Contexte
 
@@ -50,7 +56,9 @@ Le projet est actuellement au stade **R&D / étude de faisabilité**.
 7. isoler les verrous techniques ;
 8. définir un banc de validation minimal.
 
-<img src="assets/schema_rnd_detection_moustiques.png" alt="Schéma conceptuel de détection et suivi automatisé de moustiques" width="900">
+<p align="center">
+  <img src="assets/schema_rnd_detection_moustiques.png" width="760" alt="Schéma conceptuel de détection et suivi automatisé de moustiques">
+</p>
 
 ## Résultats de l'étude
 
@@ -84,3 +92,7 @@ Le projet ne dispose pas encore :
 - mesurer les performances ;
 - constituer un premier dataset ;
 - sélectionner l'architecture la plus pertinente.
+
+---
+
+[← Retour au portfolio](../README.md)

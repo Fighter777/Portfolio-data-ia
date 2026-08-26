@@ -1,4 +1,12 @@
-# P7 — Tableau de bord de pilotage
+<p align="right"><a href="../README.md">← Retour au portfolio</a></p>
+
+# <img src="../assets/icons/p7-dashboard.svg" width="38" valign="middle" alt="Dashboard"> P7 — Tableau de bord de pilotage
+
+<p>
+  <img src="../assets/logos/powerbi.svg" width="30" alt="Power BI" title="Power BI">
+</p>
+
+---
 
 ## Contexte
 
@@ -24,11 +32,6 @@ Données fictives de projets, de phases et d'indicateurs de performance : coûts
 6. visualisations ;
 7. validation du tableau de bord.
 
-## Technologies
-
-- Power BI ;
-- Power Query ;
-- DAX.
 
 ## Résultats
 
@@ -40,21 +43,31 @@ Le fichier Power BI est disponible dans [livrables/P7_tableau_bord_sanitoral.pbi
 
 **Vue globale** — synthèse des KPI, zones à surveiller et carte de répartition.
 
-![Vue globale du tableau de bord](assets/tableau_bord_vue_globale.png)
+<p align="center">
+  <img src="assets/tableau_bord_vue_globale.png" width="760" alt="Vue globale du tableau de bord">
+</p>
 
 **Vue régionale** — comparaison des coûts, délais et livrables, avec accès au détail des projets en alerte.
 
-![Vue régionale du tableau de bord](assets/tableau_bord_vue_regionale.png)
+<p align="center">
+  <img src="assets/tableau_bord_vue_regionale.png" width="760" alt="Vue régionale du tableau de bord">
+</p>
 
 **Vue détaillée** — suivi projet par projet et lecture des écarts par phase.
 
-![Vue détaillée du tableau de bord](assets/tableau_bord_vue_detaillee.png)
+<p align="center">
+  <img src="assets/tableau_bord_vue_detaillee.png" width="760" alt="Vue détaillée du tableau de bord">
+</p>
 
 La page de documentation explicite les KPI, seuils d'alerte, processus de mise à jour et modèle de données. Le *Product Strategy Canvas* formalise les besoins des utilisateurs cibles.
 
-![Documentation du tableau de bord](assets/tableau_bord_documentation.png)
+<p align="center">
+  <img src="assets/tableau_bord_documentation.png" width="760" alt="Documentation du tableau de bord">
+</p>
 
-![Product Strategy Canvas](assets/product_strategy_canvas.png)
+<p align="center">
+  <img src="assets/product_strategy_canvas.png" width="760" alt="Product Strategy Canvas">
+</p>
 
 ## Compétences mobilisées
 
@@ -68,3 +81,7 @@ La page de documentation explicite les KPI, seuils d'alerte, processus de mise �
 ## Limites et prochaines pistes
 
 Le cas est construit sur des données pédagogiques. En contexte réel, le modèle devrait être alimenté par des sources opérationnelles actualisées, avec des règles de qualité et de gouvernance documentées.
+
+---
+
+[← Retour au portfolio](../README.md)

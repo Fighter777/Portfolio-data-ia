@@ -1,4 +1,18 @@
-# Atelier « Comprendre l'IA par la démonstration » — Place du Numérique 2026
+<p align="right"><a href="../README.md">← Retour au portfolio</a></p>
+
+# <img src="../assets/icons/atelier-ai.svg" width="38" valign="middle" alt="Atelier IA"> Atelier « Comprendre l'IA par la démonstration » — Place du Numérique 2026
+
+<p>
+  <img src="../assets/logos/python.svg" width="30" alt="Python" title="Python">
+  <img src="../assets/logos/pytorch.svg" width="30" alt="PyTorch" title="PyTorch">
+  <img src="../assets/logos/whisper.svg" width="30" alt="Speech / IA vocale" title="Speech / IA vocale">
+</p>
+
+---
+
+<p align="center">
+  <img src="assets/atelier_place_du_numerique_apercu.jpg" width="760" alt="Aperçu de l’atelier Place du Numérique 2026">
+</p>
 
 ## Contexte
 
@@ -68,3 +82,7 @@ Ils sont présentés dans un cadre pédagogique, avec une attention particulièr
 - [DeepFaceLive](https://github.com/Fighter777/DeepFaceLive)
 - [DeepixLab](https://github.com/Fighter777/DeepixLab)
 - [DeepFaceLab](https://github.com/Fighter777/DeepFaceLab)
+
+---
+
+[← Retour au portfolio](../README.md)

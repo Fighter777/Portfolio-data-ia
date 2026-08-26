@@ -1,4 +1,10 @@
-# Étude de faisabilité — Batterie résidentielle DIY
+<p align="right"><a href="../README.md">← Retour au portfolio</a></p>
+
+# <img src="../assets/icons/battery.svg" width="38" valign="middle" alt="Batterie"> Étude de faisabilité — Batterie résidentielle DIY
+
+<img src="../assets/badges/etude-faisabilite.svg" height="24" alt="Statut : Étude de faisabilité">
+
+---
 
 ## Contexte
 
@@ -51,7 +57,9 @@ L'objectif n'est pas de reproduire directement un résultat de laboratoire, mais
 7. déterminer si une cellule expérimentale est pertinente ;
 8. comparer avec une solution commerciale.
 
-<img src="assets/schema_rnd_batterie_residentielle.png" alt="Schéma conceptuel d'une batterie résidentielle DIY" width="900">
+<p align="center">
+  <img src="assets/schema_rnd_batterie_residentielle.png" width="760" alt="Schéma conceptuel d'une batterie résidentielle DIY">
+</p>
 
 ## Données à constituer
 
@@ -97,3 +105,7 @@ Aucune batterie résidentielle complète n'a encore été réalisée ni validée
 - sélectionner une technologie réaliste ;
 - chiffrer un prototype ;
 - éventuellement réaliser une cellule expérimentale à petite échelle avant tout passage à une capacité supérieure.
+
+---
+
+[← Retour au portfolio](../README.md)

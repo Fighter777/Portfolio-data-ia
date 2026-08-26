@@ -1,4 +1,15 @@
-# Étude expérimentale de vibrations automobile par acquisition accélérométrique
+<p align="right"><a href="../README.md">← Retour au portfolio</a></p>
+
+# <img src="../assets/icons/vibration.svg" width="38" valign="middle" alt="Vibrations"> Étude expérimentale de vibrations automobile par acquisition accélérométrique
+
+<p>
+  <img src="../assets/logos/arduino.svg" width="30" alt="ESP32" title="ESP32">
+  <img src="../assets/logos/python.svg" width="30" alt="Python / analyse" title="Python / analyse">
+</p>
+
+<img src="../assets/badges/preparation-experimentale.svg" height="24" alt="Statut : Préparation expérimentale">
+
+---
 
 ## Contexte
 
@@ -22,7 +33,9 @@ Remplacer une appréciation subjective par des mesures permettant d'étudier la 
 - récupération de la vitesse via OBD2 envisagée ;
 - véhicule équipé de roues de 20 pouces.
 
-<img src="assets/schema_acquisition_vibrations.png" alt="Schéma de l'architecture d'acquisition vibratoire automobile" width="900">
+<p align="center">
+  <img src="assets/schema_acquisition_vibrations.png" width="760" alt="Schéma de l'architecture d'acquisition vibratoire automobile">
+</p>
 
 ## Données prévues
 
@@ -90,3 +103,7 @@ Les résultats dépendront notamment :
 - intégrer la vitesse OBD2 ;
 - effectuer la première campagne sur l'essieu avant ;
 - analyser les signaux et FFT.
+
+---
+
+[← Retour au portfolio](../README.md)

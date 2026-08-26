@@ -1,4 +1,15 @@
-# P6 — Analyse du catalogue d'un caviste
+<p align="right"><a href="../README.md">← Retour au portfolio</a></p>
+
+# <img src="../assets/icons/p6-wine.svg" width="38" valign="middle" alt="Catalogue caviste"> P6 — Analyse du catalogue d'un caviste
+
+<p>
+  <img src="../assets/logos/python.svg" width="30" alt="Python" title="Python">
+  <img src="../assets/logos/pandas.svg" width="30" alt="Pandas" title="Pandas">
+  <img src="../assets/logos/plotly.svg" width="30" alt="Plotly" title="Plotly">
+  <img src="../assets/logos/jupyter.svg" width="30" alt="Jupyter" title="Jupyter">
+</p>
+
+---
 
 ## Contexte
 
@@ -28,11 +39,6 @@ Trois sources Excel sont exploitées : le catalogue ERP, les produits du site e-
 6. interprétation ;
 7. recommandations.
 
-## Technologies
-
-- Python ;
-- Pandas ;
-- Plotly.
 
 ## Résultats
 
@@ -42,25 +48,37 @@ Le notebook produit un jeu de données consolidé, contrôle les incohérences d
 
 La distribution des prix met en évidence un catalogue majoritairement positionné sur des prix accessibles, complété par quelques références premium.
 
-![Répartition des prix de vente](assets/repartition_prix_vente.png)
+<p align="center">
+  <img src="assets/repartition_prix_vente.png" width="760" alt="Répartition des prix de vente">
+</p>
 
 La marge moyenne varie fortement selon les familles de produits : ce résultat fournit un premier axe de priorisation commerciale.
 
-![Taux de marge moyen par type de produit](assets/marge_moyenne_par_type.png)
+<p align="center">
+  <img src="assets/marge_moyenne_par_type.png" width="760" alt="Taux de marge moyen par type de produit">
+</p>
 
 La matrice permet de mettre en regard prix, coût d'achat, stock, ventes cumulées et taux de marge.
 
-![Matrice de corrélation](assets/matrice_correlation.png)
+<p align="center">
+  <img src="assets/matrice_correlation.png" width="760" alt="Matrice de corrélation">
+</p>
 
 Les classements par chiffre d'affaires et par quantités vendues distinguent les références qui génèrent le plus de valeur de celles qui génèrent le plus de volume.
 
-![Top 20 des articles en chiffre d'affaires](assets/top_chiffre_affaires.png)
+<p align="center">
+  <img src="assets/top_chiffre_affaires.png" width="760" alt="Top 20 des articles en chiffre d'affaires">
+</p>
 
-![Top 20 des articles en quantités vendues](assets/top_quantites_vendues.png)
+<p align="center">
+  <img src="assets/top_quantites_vendues.png" width="760" alt="Top 20 des articles en quantités vendues">
+</p>
 
 Enfin, la couverture de stock en mois identifie les références à surveiller pour éviter une immobilisation excessive.
 
-![Top 20 des produits avec le plus de mois de stock](assets/couverture_stock_mois.png)
+<p align="center">
+  <img src="assets/couverture_stock_mois.png" width="760" alt="Top 20 des produits avec le plus de mois de stock">
+</p>
 
 ## Compétences mobilisées
 
@@ -81,3 +99,7 @@ Enfin, la couverture de stock en mois identifie les références à surveiller p
 
 - [Notebook d'analyse](livrables/P6_analyse_catalogue_caviste.ipynb)
 - [Présentation de synthèse (PDF)](livrables/P6_presentation_analyse_catalogue_caviste.pdf)
+
+---
+
+[← Retour au portfolio](../README.md)

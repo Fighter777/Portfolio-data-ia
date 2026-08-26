@@ -1,6 +1,10 @@
-# Retour d'expérience R&D — OCR sur manuel ancien
+<p align="right"><a href="../README.md">← Retour au portfolio</a></p>
 
-> **Statut :** essai non retenu comme projet abouti.
+# <img src="../assets/icons/ocr.svg" width="38" valign="middle" alt="OCR"> Retour d'expérience R&D — OCR sur manuel ancien
+
+<img src="../assets/badges/retour-experience.svg" height="24" alt="Statut : Retour d’expérience">
+
+---
 
 ## Objectif initial
 
@@ -10,7 +14,9 @@ Numériser et rendre exploitable un manuel des années 1950 par OCR.
 
 Le travail porte sur un bulletin technique CIMA de mars 1957, consacré aux tracteurs « série 235 ».
 
-![Couverture du bulletin technique CIMA étudié](assets/bulletin_cima_serie_235_1957.png)
+<p align="center">
+  <img src="assets/bulletin_cima_serie_235_1957.png" width="420" alt="Couverture du bulletin technique CIMA étudié">
+</p>
 
 ## Constat
 
@@ -25,3 +31,7 @@ Le projet est conservé comme retour d'expérience sur les limites de l'OCR face
 - obtenir une meilleure numérisation ou un exemplaire mieux conservé ;
 - définir un niveau de fiabilité minimal acceptable ;
 - évaluer le coût d'une restauration des images ou d'une transcription manuelle.
+
+---
+
+[← Retour au portfolio](../README.md)

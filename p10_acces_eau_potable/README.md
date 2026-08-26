@@ -1,4 +1,12 @@
-# P10 — Accès à l'eau potable
+<p align="right"><a href="../README.md">← Retour au portfolio</a></p>
+
+# <img src="../assets/icons/p10-water.svg" width="38" valign="middle" alt="Eau potable"> P10 — Accès à l'eau potable
+
+<p>
+  <img src="../assets/logos/powerbi.svg" width="30" alt="Power BI" title="Power BI">
+</p>
+
+---
 
 ## Contexte
 
@@ -32,23 +40,37 @@ Le tableau de bord interactif est disponible dans [livrables/P10_tableau_bord_ac
 
 Les pages géographiques rendent les écarts immédiatement lisibles et permettent de filtrer les résultats par niveau de stabilité politique.
 
-![Carte du taux de mortalité](assets/carte_taux_mortalite.png)
+<p align="center">
+  <img src="assets/carte_taux_mortalite.png" width="760" alt="Carte du taux de mortalité">
+</p>
 
-![Carte du taux de mortalité avec filtre](assets/carte_taux_mortalite_filtre.png)
+<p align="center">
+  <img src="assets/carte_taux_mortalite_filtre.png" width="760" alt="Carte du taux de mortalité avec filtre">
+</p>
 
-![Carte de salubrité de l'eau](assets/carte_salubrite_eau.png)
+<p align="center">
+  <img src="assets/carte_salubrite_eau.png" width="760" alt="Carte de salubrité de l'eau">
+</p>
 
-![Carte de stabilité politique](assets/carte_stabilite_politique.png)
+<p align="center">
+  <img src="assets/carte_stabilite_politique.png" width="760" alt="Carte de stabilité politique">
+</p>
 
-![Carte de population](assets/carte_population.png)
+<p align="center">
+  <img src="assets/carte_population.png" width="760" alt="Carte de population">
+</p>
 
 ### Lecture régionale et priorisation
 
 Une vue régionale synthétise les indicateurs et formule une recommandation contextualisée. La page de priorisation met en regard accès à l'eau, population rurale et stabilité politique.
 
-![Analyse régionale du Népal](assets/analyse_regionale_nepal.png)
+<p align="center">
+  <img src="assets/analyse_regionale_nepal.png" width="760" alt="Analyse régionale du Népal">
+</p>
 
-![Matrice de priorisation des interventions](assets/priorisation_intervention.png)
+<p align="center">
+  <img src="assets/priorisation_intervention.png" width="760" alt="Matrice de priorisation des interventions">
+</p>
 
 ## Compétences mobilisées
 
@@ -57,3 +79,7 @@ Power BI, Power Query, modélisation de données, analyse exploratoire, visualis
 ## Limites
 
 Les indicateurs internationaux sont agrégés et n'ont pas tous la même période de disponibilité. Ils orientent une priorisation à l'échelle pays, sans remplacer une étude locale.
+
+---
+
+[← Retour au portfolio](../README.md)

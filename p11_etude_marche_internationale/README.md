@@ -1,4 +1,15 @@
-# P11 — Étude de marché internationale
+<p align="right"><a href="../README.md">← Retour au portfolio</a></p>
+
+# <img src="../assets/icons/p11-world.svg" width="38" valign="middle" alt="Marché international"> P11 — Étude de marché internationale
+
+<p>
+  <img src="../assets/logos/python.svg" width="30" alt="Python" title="Python">
+  <img src="../assets/logos/pandas.svg" width="30" alt="Pandas" title="Pandas">
+  <img src="../assets/logos/sklearn.svg" width="30" alt="scikit-learn" title="scikit-learn">
+  <img src="../assets/logos/jupyter.svg" width="30" alt="Jupyter" title="Jupyter">
+</p>
+
+---
 
 ## Contexte
 
@@ -24,11 +35,6 @@ Les indicateurs de dynamique couvrent principalement la période 2013–2017, se
 6. caractérisation des groupes ;
 7. recommandations commerciales.
 
-## Technologies
-
-- Python ;
-- Pandas ;
-- scikit-learn.
 
 ## Compétences mobilisées
 
@@ -61,19 +67,27 @@ La recommandation privilégie les marchés riches et importateurs, puis les marc
 
 Le nombre de groupes a été confronté à plusieurs critères. Le score de silhouette permet notamment de comparer la cohésion des partitions testées.
 
-![Score de silhouette selon le nombre de clusters](assets/choix_clusters_silhouette.png)
+<p align="center">
+  <img src="assets/choix_clusters_silhouette.png" width="760" alt="Score de silhouette selon le nombre de clusters">
+</p>
 
 Le dendrogramme issu de la CAH par méthode de Ward donne une lecture complémentaire des rapprochements entre pays.
 
-![Dendrogramme CAH par méthode de Ward](assets/dendrogramme_cah_ward.png)
+<p align="center">
+  <img src="assets/dendrogramme_cah_ward.png" width="760" alt="Dendrogramme CAH par méthode de Ward">
+</p>
 
 La projection dans le plan factoriel rend visible la répartition des quatre clusters retenus.
 
-![Clusters K-means dans le plan factoriel](assets/clusters_kmeans_plan_factoriel.png)
+<p align="center">
+  <img src="assets/clusters_kmeans_plan_factoriel.png" width="760" alt="Clusters K-means dans le plan factoriel">
+</p>
 
 Le cercle des corrélations aide à interpréter les axes de l'ACP et les familles d'indicateurs qui structurent les profils de marché.
 
-![Cercle des corrélations PC1 et PC3](assets/cercle_correlations_pc1_pc3.png)
+<p align="center">
+  <img src="assets/cercle_correlations_pc1_pc3.png" width="718" alt="Cercle des corrélations PC1 et PC3">
+</p>
 
 ## Limites
 
@@ -89,3 +103,7 @@ Le cercle des corrélations aide à interpréter les axes de l'ACP et les famill
 - intégrer de nouveaux indicateurs ;
 - tester la stabilité des groupes ;
 - compléter l'analyse par des contraintes réglementaires et des données de terrain pays par pays.
+
+---
+
+[← Retour au portfolio](../README.md)

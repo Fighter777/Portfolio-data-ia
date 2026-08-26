@@ -1,4 +1,15 @@
-# P8 — Pipeline de données sociodémographiques
+<p align="right"><a href="../README.md">← Retour au portfolio</a></p>
+
+# <img src="../assets/icons/p8-pipeline.svg" width="38" valign="middle" alt="Pipeline"> P8 — Pipeline de données sociodémographiques
+
+<p>
+  <img src="../assets/logos/dbt.svg" width="30" alt="dbt" title="dbt">
+  <img src="../assets/logos/snowflake.svg" width="30" alt="Snowflake" title="Snowflake">
+  <img src="../assets/logos/python.svg" width="30" alt="Python" title="Python">
+  <img src="../assets/logos/sql.svg" width="30" alt="SQL" title="SQL">
+</p>
+
+---
 
 ## Contexte
 
@@ -8,11 +19,6 @@ Projet orienté **Data Engineering** réalisé dans le parcours Data Analyst Ope
 
 Construire une chaîne de transformation reproductible pour nettoyer, enrichir et rendre analysables les données d'inscription, avec une comparaison aux données de population INSEE.
 
-## Technologies
-
-- dbt ;
-- Snowflake ;
-- Python.
 
 ## Données
 
@@ -46,17 +52,25 @@ Le pipeline produit une table analytique consolidée et un export CSV. Elle perm
 
 Les scripts SQL sont organisés dans Snowflake, puis dbt construit la chaîne de modèles à partir des données brutes, des couches de préparation et du mart final.
 
-![Espace de travail Snowflake](assets/snowflake_workspace_sql.png)
+<p align="center">
+  <img src="assets/snowflake_workspace_sql.png" width="373" alt="Espace de travail Snowflake">
+</p>
 
-![DAG dbt du pipeline](assets/dbt_lineage.png)
+<p align="center">
+  <img src="assets/dbt_lineage.png" width="760" alt="DAG dbt du pipeline">
+</p>
 
 Le contrôle `dbt build` exécute les modèles et tests associés. La capture ci-dessous montre une exécution réussie de 43 vérifications.
 
-![Exécution réussie de dbt build](assets/dbt_build_succes.png)
+<p align="center">
+  <img src="assets/dbt_build_succes.png" width="760" alt="Exécution réussie de dbt build">
+</p>
 
 Le mart final consolide les indicateurs sociodémographiques par année, région, genre et tranche d'âge.
 
-![Aperçu du mart sociodémographique dans Snowflake](assets/snowflake_mart_apercu.png)
+<p align="center">
+  <img src="assets/snowflake_mart_apercu.png" width="760" alt="Aperçu du mart sociodémographique dans Snowflake">
+</p>
 
 ## Limites
 
@@ -72,3 +86,7 @@ Le projet repose sur des données pédagogiques et une analyse descriptive : les
 ## Source
 
 - [Dépôt dbt du projet P8](https://github.com/Fighter777/projet_P8)
+
+---
+
+[← Retour au portfolio](../README.md)

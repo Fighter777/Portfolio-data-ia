@@ -1,4 +1,15 @@
-# P12 — Détection de faux billets
+<p align="right"><a href="../README.md">← Retour au portfolio</a></p>
+
+# <img src="../assets/icons/p12-banknote.svg" width="38" valign="middle" alt="Faux billets"> P12 — Détection de faux billets
+
+<p>
+  <img src="../assets/logos/python.svg" width="30" alt="Python" title="Python">
+  <img src="../assets/logos/pandas.svg" width="30" alt="Pandas" title="Pandas">
+  <img src="../assets/logos/sklearn.svg" width="30" alt="scikit-learn" title="scikit-learn">
+  <img src="../assets/logos/jupyter.svg" width="30" alt="Jupyter" title="Jupyter">
+</p>
+
+---
 
 ## Contexte
 
@@ -24,11 +35,6 @@ Le jeu d'entraînement comprend 1 500 billets et six mesures : `length`, `height
 6. étude de différents seuils de décision ;
 7. sauvegarde du pipeline et prédiction sur un fichier de production.
 
-## Technologies
-
-- Python ;
-- Pandas ;
-- scikit-learn.
 
 ## Évaluation
 
@@ -59,19 +65,27 @@ Le projet fournit un notebook d'analyse, un modèle sauvegardé avec son prétra
 
 Les 37 valeurs manquantes de `margin_low` sont prises en charge par une imputation KNN fondée sur les cinq voisins les plus proches.
 
-![Principe de l'imputation KNN](assets/imputation_knn.png)
+<p align="center">
+  <img src="assets/imputation_knn.png" width="292" alt="Principe de l'imputation KNN">
+</p>
 
 Les modèles sont comparés selon l'accuracy, mais surtout selon les métriques associées aux faux billets.
 
-![Comparaison des modèles](assets/comparaison_modeles.png)
+<p align="center">
+  <img src="assets/comparaison_modeles.png" width="624" alt="Comparaison des modèles">
+</p>
 
 La matrice de confusion sert à visualiser le compromis entre détection des faux billets et mise en alerte de vrais billets. Cette illustration correspond à un essai avec un seuil de décision de 0,75.
 
-![Matrice de confusion au seuil 0,75](assets/matrice_confusion_seuil_075.png)
+<p align="center">
+  <img src="assets/matrice_confusion_seuil_075.png" width="572" alt="Matrice de confusion au seuil 0,75">
+</p>
 
 K-means fait partie des méthodes comparées ; sa répartition confirme son rôle de point de référence non supervisé face aux modèles de classification supervisée.
 
-![Répartition des billets par cluster K-means](assets/repartition_kmeans.png)
+<p align="center">
+  <img src="assets/repartition_kmeans.png" width="411" alt="Répartition des billets par cluster K-means">
+</p>
 
 ## Limites
 
@@ -88,3 +102,7 @@ K-means fait partie des méthodes comparées ; sa répartition confirme son rôl
 - importance des variables ;
 - suivi des performances.
 - calibration du seuil sur un jeu de validation indépendant.
+
+---
+
+[← Retour au portfolio](../README.md)

@@ -1,6 +1,18 @@
-# Vocal Weather — Assistant météo vocal
+<p align="right"><a href="../README.md">← Retour au portfolio</a></p>
 
-> **Statut :** prototype fonctionnel.
+# <img src="../assets/icons/weather.svg" width="38" valign="middle" alt="Météo"> Vocal Weather — Assistant météo vocal
+
+<p>
+  <img src="../assets/logos/flutter.svg" width="30" alt="Flutter" title="Flutter">
+  <img src="../assets/logos/fastapi.svg" width="30" alt="FastAPI" title="FastAPI">
+  <img src="../assets/logos/whisper.svg" width="30" alt="faster-whisper" title="faster-whisper">
+  <img src="../assets/logos/ollama.svg" width="30" alt="Ollama" title="Ollama">
+  <img src="../assets/logos/sqlite.svg" width="30" alt="SQLite" title="SQLite">
+</p>
+
+<img src="../assets/badges/prototype-fonctionnel.svg" height="24" alt="Statut : Prototype fonctionnel">
+
+---
 
 ## Contexte
 
@@ -14,17 +26,10 @@ Permettre à un utilisateur de formuler une demande météo oralement et d'obten
 
 **voix → transcription → extraction du lieu et de l'horizon → Open-Meteo → réponse → synthèse vocale**
 
-<img src="assets/architecture_pipeline_vocal_weather.png" alt="Pipeline de Vocal Weather : Flutter, FastAPI, Whisper, Ollama, Open-Meteo et synthèse vocale" width="900">
+<p align="center">
+  <img src="assets/architecture_pipeline_vocal_weather.png" width="760" alt="Pipeline de Vocal Weather : Flutter, FastAPI, Whisper, Ollama, Open-Meteo et synthèse vocale">
+</p>
 
-## Technologies
-
-- Flutter ;
-- FastAPI ;
-- faster-whisper ;
-- Ollama (Qwen 2.5 7B par défaut) ;
-- Open-Meteo ;
-- Piper ;
-- SQLite.
 
 ## Données
 
@@ -52,7 +57,9 @@ Les journaux permettent d'observer les latences réelles sans présenter une mes
 
 Le parcours a été testé en conditions réelles, notamment avec un essai volontairement ambigu sur un nom de ville, inspiré d'un cas ayant posé problème dans un autre projet de formation. Ce test a permis de vérifier le comportement de la chaîne de transcription et d'interprétation sur une formulation moins évidente.
 
-<img src="assets/interface_mobile_vocal_weather.jpg" alt="Interface mobile de Vocal Weather" width="360">
+<p align="center">
+  <img src="assets/interface_mobile_vocal_weather.jpg" width="360" alt="Interface mobile de Vocal Weather">
+</p>
 
 ## Limites
 
@@ -66,3 +73,7 @@ Le parcours a été testé en conditions réelles, notamment avec un essai volon
 - comparer plusieurs modèles ;
 - améliorer la gestion des ambiguïtés ;
 - constituer un jeu de requêtes de test et documenter les erreurs récurrentes.
+
+---
+
+[← Retour au portfolio](../README.md)

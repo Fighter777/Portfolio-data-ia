@@ -1,6 +1,6 @@
-# Assets du README racine
+# Assets du portfolio
 
-Les icônes sont stockées localement afin que le README ne dépende pas d'un CDN.
+Les icônes sont stockées localement afin que le README racine et les README des sous-projets ne dépendent pas d'un CDN.
 
 - `icons/` : pictogrammes de sections et de projets, basés sur **Font Awesome Free 6.7.2** (licence indiquée dans les SVG source).
 - `logos/` : logos/identifiants techniques. Python, Flutter et Git proviennent des assets Font Awesome disponibles localement ; Jupyter et Hugging Face proviennent des packages installés dans l'environnement. Les autres sont des identifiants SVG simplifiés créés pour ce portfolio afin d'éviter une dépendance réseau.

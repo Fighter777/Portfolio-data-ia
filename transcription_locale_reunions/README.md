@@ -1,4 +1,15 @@
-# Transcription locale et assistée de réunions
+<p align="right"><a href="../README.md">← Retour au portfolio</a></p>
+
+# <img src="../assets/icons/transcription.svg" width="38" valign="middle" alt="Transcription"> Transcription locale et assistée de réunions
+
+<p>
+  <img src="../assets/logos/python.svg" width="30" alt="Python" title="Python">
+  <img src="../assets/logos/whisper.svg" width="30" alt="Whisper large-v3" title="Whisper large-v3">
+  <img src="../assets/logos/huggingface.svg" width="30" alt="pyannote" title="pyannote">
+  <img src="../assets/logos/nvidia.svg" width="30" alt="CUDA / RTX 3090" title="CUDA / RTX 3090">
+</p>
+
+---
 
 ## Contexte
 
@@ -30,18 +41,6 @@ Branche optionnelle :
 Contrôle qualité :
 **segments de faible confiance → extrait audio → décodages alternatifs → validation utilisateur**
 
-## Technologies
-
-- Python 3.12 ;
-- Gradio ;
-- Whisper large-v3 ;
-- faster-whisper ;
-- CTranslate2 ;
-- WhisperX ;
-- pyannote ;
-- FFmpeg ;
-- CUDA ;
-- RTX 3090.
 
 ## Démarche
 
@@ -70,11 +69,15 @@ L'application produit :
 - `SRT` ;
 - `VTT`.
 
-<img src="assets/interface_principale_transcription.jpg" alt="Interface principale de transcription locale" width="900">
+<p align="center">
+  <img src="assets/interface_principale_transcription.jpg" width="760" alt="Interface principale de transcription locale">
+</p>
 
 Elle permet également une relecture ciblée des **30 segments présentant la confiance acoustique la plus faible**.
 
-<img src="assets/relecture_ciblee_transcription.jpg" alt="Interface de relecture ciblée d'un segment à vérifier" width="900">
+<p align="center">
+  <img src="assets/relecture_ciblee_transcription.jpg" width="760" alt="Interface de relecture ciblée d'un segment à vérifier">
+</p>
 
 ## Compétences mobilisées
 
@@ -100,3 +103,7 @@ Elle permet également une relecture ciblée des **30 segments présentant la co
 - quantifier les corrections nécessaires par heure d'audio ;
 - comparer plusieurs configurations de décodage ;
 - évaluer la diarisation sur plusieurs configurations de réunion.
+
+---
+
+[← Retour au portfolio](../README.md)

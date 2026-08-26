@@ -1,4 +1,10 @@
-# Tracker GPS / LoRa basse consommation pour animal
+<p align="right"><a href="../README.md">← Retour au portfolio</a></p>
+
+# <img src="../assets/icons/lora.svg" width="38" valign="middle" alt="LoRa / GNSS"> Tracker GPS / LoRa basse consommation pour animal
+
+<img src="../assets/badges/rnd-en-cours.svg" height="24" alt="Statut : R&D en cours">
+
+---
 
 ## Contexte
 
@@ -70,7 +76,9 @@ Des essais terrain avec des **Heltec WiFi LoRa 32 V3 / SX1262** et les antennes 
 
 Ces essais servent de base au dimensionnement de l'architecture radio finale.
 
-<img src="assets/maquette_interface_lora_gps.png" alt="Maquette de l'interface de suivi LoRa GPS" width="420">
+<p align="center">
+  <img src="assets/maquette_interface_lora_gps.png" width="420" alt="Maquette de l'interface de suivi LoRa GPS">
+</p>
 
 ## Compétences mobilisées
 
@@ -106,3 +114,7 @@ Ces essais servent de base au dimensionnement de l'architecture radio finale.
 Projet présenté comme preuve de démarche R&D.
 
 Le code source, les fichiers de conception détaillés et certains éléments d'implémentation ne sont pas publiés. Le dépôt de développement privé n'est pas référencé.
+
+---
+
+[← Retour au portfolio](../README.md)

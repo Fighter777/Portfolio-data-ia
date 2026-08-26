@@ -1,4 +1,14 @@
-# P13 — Piloter un projet Data augmenté avec l'IA et créer son portfolio
+<p align="right"><a href="../README.md">← Retour au portfolio</a></p>
+
+# <img src="../assets/icons/p13-ai.svg" width="38" valign="middle" alt="Projet Data augmenté avec IA"> P13 — Piloter un projet Data augmenté avec l'IA et créer son portfolio
+
+<img src="../assets/badges/projet-en-cours.svg" height="24" alt="Statut : Projet en cours">
+
+---
+
+<p align="center">
+  <img src="assets/schema_p13_workflow.svg" width="760" alt="Workflow du projet P13 : cadrage, essais IA, décision et portfolio">
+</p>
 
 ## Contexte
 
@@ -83,3 +93,7 @@ Projet en cours.
 La partie portfolio est engagée : le dépôt rassemble les fiches des projets OpenClassrooms et personnels, avec une distinction explicite entre réalisations abouties, expérimentations et R&D. Le P6 original est archivé séparément comme livrable historique.
 
 La partie d'amélioration IA du P6 reste à réaliser et devra être documentée dans un espace distinct : cadrage, essais comparatifs, prompts ou outils utilisés, décisions, limites et bilan critique.
+
+---
+
+[← Retour au portfolio](../README.md)
