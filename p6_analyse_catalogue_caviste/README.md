@@ -18,16 +18,16 @@
   <sub>Principales références par chiffre d’affaires</sub>
 </p>
 
-## ![](../assets/sections/context.svg) Contexte
+## 📋 Contexte
 
 Projet réalisé dans le cadre du parcours **Data Analyst OpenClassrooms**.
 
 
-## ![](../assets/sections/goal.svg) Besoin métier
+## 🎯 Besoin métier
 
 Réconcilier le catalogue issu de l'ERP avec les produits publiés sur le site e-commerce, puis analyser les ventes, les prix et les stocks afin d'identifier des anomalies et des produits à surveiller.
 
-## ![](../assets/sections/data.svg) Données
+## 🗃️ Données
 
 Trois sources Excel sont exploitées : le catalogue ERP, les produits du site e-commerce et une table de liaison entre leurs références.
 
@@ -36,7 +36,7 @@ Trois sources Excel sont exploitées : le catalogue ERP, les produits du site e-
 - 111 références non rapprochées à investiguer ;
 - variables principales : prix, quantité en stock, ventes cumulées et métadonnées de publication.
 
-## ![](../assets/sections/method.svg) Démarche
+## ⚙️ Démarche
 
 1. compréhension du besoin ;
 2. audit des données ;
@@ -47,11 +47,11 @@ Trois sources Excel sont exploitées : le catalogue ERP, les produits du site e-
 7. recommandations.
 
 
-## ![](../assets/sections/results.svg) Résultats
+## 📈 Résultats
 
 Le notebook produit un jeu de données consolidé, contrôle les incohérences de prix et de stock, et présente les ventes cumulées par produit. L'analyse met notamment en évidence des valeurs négatives à vérifier dans les données de prix ou de stock, ainsi que les références sans correspondance entre ERP et site.
 
-## ![](../assets/sections/results.svg) Aperçu de l'analyse
+## 📈 Aperçu de l'analyse
 
 La distribution des prix met en évidence un catalogue majoritairement positionné sur des prix accessibles, complété par quelques références premium.
 
@@ -83,7 +83,7 @@ Enfin, la couverture de stock en mois identifie les références à surveiller p
   <img src="assets/couverture_stock_mois.png" width="760" alt="Top 20 des produits avec le plus de mois de stock">
 </p>
 
-## ![](../assets/sections/skills.svg) Compétences mobilisées
+## 🎓 Compétences mobilisées
 
 - préparation des données ;
 - EDA ;
@@ -92,13 +92,13 @@ Enfin, la couverture de stock en mois identifie les références à surveiller p
 - interprétation métier ;
 - documentation.
 
-## ![](../assets/sections/limits.svg) Limites
+## ⚠️ Limites
 
 - les ventes sont disponibles sous forme cumulée, sans historique de transactions ;
 - les dates de publication WordPress ne correspondent pas à des dates d'achat ;
 - il n'est donc pas possible d'établir une prévision saisonnière fiable à partir de ce jeu de données seul.
 
-## ![](../assets/sections/deliverables.svg) Livrables
+## 📦 Livrables
 
 - [Notebook d'analyse](livrables/P6_analyse_catalogue_caviste.ipynb)
 - [Présentation de synthèse (PDF)](livrables/P6_presentation_analyse_catalogue_caviste.pdf)

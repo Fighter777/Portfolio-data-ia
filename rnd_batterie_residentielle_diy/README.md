@@ -13,7 +13,7 @@
   <sub>Schéma conceptuel d’un stockage résidentiel DIY</sub>
 </p>
 
-## ![](../assets/sections/context.svg) Contexte
+## 📋 Contexte
 
 Étude personnelle portant sur la faisabilité technique et économique d'un stockage électrique résidentiel construit à partir de cellules ou de chimies adaptées à un usage stationnaire.
 
@@ -21,7 +21,7 @@ La réflexion a notamment porté sur les technologies **zinc-ion** en développe
 
 Le projet est actuellement une **étude de faisabilité**, pas une batterie réalisée.
 
-## ![](../assets/sections/goal.svg) Besoin / objectif
+## 🎯 Besoin / objectif
 
 Déterminer :
 - quelle capacité de stockage est pertinente pour un usage résidentiel ;
@@ -29,7 +29,7 @@ Déterminer :
 - quels compromis existent entre coût, durée de vie, sécurité et densité énergétique ;
 - si une fabrication ou un assemblage personnel peut rester compétitif face aux batteries commerciales.
 
-## ![](../assets/sections/part.svg) Axes d'étude
+## 📌 Axes d'étude
 
 ### Dimensionnement
 - consommation journalière ;
@@ -53,7 +53,7 @@ La technologie zinc-ion a été étudiée pour son intérêt potentiel en stocka
 
 L'objectif n'est pas de reproduire directement un résultat de laboratoire, mais d'identifier ce qui est transposable à une fabrication expérimentale.
 
-## ![](../assets/sections/method.svg) Démarche R&D
+## ⚙️ Démarche R&D
 
 1. définir le besoin énergétique ;
 2. comparer plusieurs chimies ;
@@ -64,7 +64,7 @@ L'objectif n'est pas de reproduire directement un résultat de laboratoire, mais
 7. déterminer si une cellule expérimentale est pertinente ;
 8. comparer avec une solution commerciale.
 
-## ![](../assets/sections/data.svg) Données à constituer
+## 🗃️ Données à constituer
 
 Pour chaque technologie :
 - tension nominale ;
@@ -77,7 +77,7 @@ Pour chaque technologie :
 - température de fonctionnement ;
 - contraintes de sécurité.
 
-## ![](../assets/sections/skills.svg) Compétences mobilisées
+## 🎓 Compétences mobilisées
 
 - veille scientifique et technique ;
 - analyse multicritère ;
@@ -87,13 +87,13 @@ Pour chaque technologie :
 - expérimentation ;
 - analyse de faisabilité.
 
-## ![](../assets/sections/results.svg) État actuel
+## 📈 État actuel
 
 Phase d'étude et de comparaison.
 
 Aucune batterie résidentielle complète n'a encore été réalisée ni validée.
 
-## ![](../assets/sections/limits.svg) Limites
+## ⚠️ Limites
 
 - performances publiées en laboratoire non directement transposables ;
 - disponibilité variable des matériaux ;
@@ -101,7 +101,7 @@ Aucune batterie résidentielle complète n'a encore été réalisée ni validée
 - absence de validation cyclique sur cellule personnelle ;
 - nécessité de comparer le coût système complet, pas uniquement celui des matériaux.
 
-## ![](../assets/sections/next.svg) Prochaines étapes
+## 🚀 Prochaines étapes
 
 - définir une capacité résidentielle cible ;
 - établir une matrice comparative de chimies ;

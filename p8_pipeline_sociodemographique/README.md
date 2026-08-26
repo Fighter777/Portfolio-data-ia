@@ -18,22 +18,22 @@
   <sub>Lineage du pipeline dbt</sub>
 </p>
 
-## ![](../assets/sections/context.svg) Contexte
+## 📋 Contexte
 
 Projet orienté **Data Engineering** réalisé dans le parcours Data Analyst OpenClassrooms. Il analyse l'évolution du profil sociodémographique des inscrits aux parcours Data entre 2022 et 2025.
 
-## ![](../assets/sections/goal.svg) Besoin métier
+## 🎯 Besoin métier
 
 Construire une chaîne de transformation reproductible pour nettoyer, enrichir et rendre analysables les données d'inscription, avec une comparaison aux données de population INSEE.
 
 
-## ![](../assets/sections/data.svg) Données
+## 🗃️ Données
 
 Le jeu de départ comprend 4 646 inscrits, enrichis avec des données INSEE de population et de chômage régional. Les dimensions principales sont l'année, le genre, la tranche d'âge et la région.
 
 Les valeurs de genre manquantes sont conservées dans une catégorie `Non renseigné`, afin de ne pas les faire disparaître de l'analyse. Les libellés de régions sont harmonisés avant jointure.
 
-## ![](../assets/sections/method.svg) Démarche
+## ⚙️ Démarche
 
 1. chargement des tables brutes dans Snowflake ;
 2. standardisation dans les modèles `staging` ;
@@ -42,7 +42,7 @@ Les valeurs de genre manquantes sont conservées dans une catégorie `Non rensei
 5. contrôles dbt et SQL sur les valeurs, bornes et collisions d'identifiants ;
 6. génération de documentation et export de la table finale.
 
-## ![](../assets/sections/skills.svg) Compétences mobilisées
+## 🎓 Compétences mobilisées
 
 - Data Engineering ;
 - SQL ;
@@ -51,11 +51,11 @@ Les valeurs de genre manquantes sont conservées dans une catégorie `Non rensei
 - qualité des données ;
 - reproductibilité.
 
-## ![](../assets/sections/results.svg) Résultats
+## 📈 Résultats
 
 Le pipeline produit une table analytique consolidée et un export CSV. Elle permet d'étudier les effectifs, les utilisateurs uniques, les répartitions par âge, genre et région, ainsi que les écarts de représentation entre les inscrits OpenClassrooms et la population de référence INSEE.
 
-## ![](../assets/sections/results.svg) Aperçu du pipeline
+## 📈 Aperçu du pipeline
 
 Les scripts SQL sont organisés dans Snowflake, puis dbt construit la chaîne de modèles à partir des données brutes, des couches de préparation et du mart final.
 
@@ -75,18 +75,18 @@ Le mart final consolide les indicateurs sociodémographiques par année, région
   <img src="assets/snowflake_mart_apercu.png" width="760" alt="Aperçu du mart sociodémographique dans Snowflake">
 </p>
 
-## ![](../assets/sections/limits.svg) Limites
+## ⚠️ Limites
 
 Le projet repose sur des données pédagogiques et une analyse descriptive : les écarts observés ne permettent pas d'établir de lien causal. Les données brutes ne sont pas publiées dans le portfolio.
 
-## ![](../assets/sections/next.svg) Prochaines pistes
+## 🚀 Prochaines pistes
 
 - automatisation de l'actualisation ;
 - monitoring de fraîcheur et de qualité ;
 - tests supplémentaires sur les jointures et les évolutions de structure ;
 - visualisation des indicateurs à partir du mart final.
 
-## ![](../assets/sections/references.svg) Source
+## 🔗 Source
 
 - [Dépôt dbt du projet P8](https://github.com/Fighter777/projet_P8)
 

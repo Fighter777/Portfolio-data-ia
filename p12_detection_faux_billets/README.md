@@ -18,21 +18,21 @@
   <sub>Comparaison des modèles de classification</sub>
 </p>
 
-## ![](../assets/sections/context.svg) Contexte
+## 📋 Contexte
 
 Projet de Machine Learning supervisé réalisé dans le parcours Data Analyst OpenClassrooms.
 
-## ![](../assets/sections/goal.svg) Besoin métier
+## 🎯 Besoin métier
 
 Classifier automatiquement un billet comme authentique ou suspect à partir de mesures géométriques, en priorisant la détection des faux billets pour limiter les faux négatifs.
 
-## ![](../assets/sections/data.svg) Données
+## 🗃️ Données
 
 Le jeu d'entraînement comprend 1 500 billets et six mesures : `length`, `height_left`, `height_right`, `margin_up`, `margin_low` et `diagonal`.
 
 37 valeurs manquantes ont été relevées dans `margin_low` (2,47 % du jeu). Plusieurs stratégies ont été comparées : suppression, imputation médiane et `KNNImputer`.
 
-## ![](../assets/sections/method.svg) Démarche
+## ⚙️ Démarche
 
 1. exploration et audit des valeurs manquantes ;
 2. comparaison de stratégies de préparation ;
@@ -43,13 +43,13 @@ Le jeu d'entraînement comprend 1 500 billets et six mesures : `length`, `height
 7. sauvegarde du pipeline et prédiction sur un fichier de production.
 
 
-## ![](../assets/sections/results.svg) Évaluation
+## 📈 Évaluation
 
 Les métriques sont lues prioritairement sur la classe « faux billet » : précision, rappel, F1 et F-beta, complétées par la matrice de confusion. La régression logistique optimisée (`C = 7`) est retenue comme modèle de référence.
 
 Sur le jeu de test, le seuil standard de 0,50 laisse encore passer deux faux billets. Lors des essais, un seuil de 0,65 atteint un rappel de 100 % sur les faux billets, au prix de trois vrais billets classés comme suspects. Ce seuil doit être revalidé sur des données indépendantes avant un usage réel.
 
-## ![](../assets/sections/skills.svg) Compétences mobilisées
+## 🎓 Compétences mobilisées
 
 - classification ;
 - préparation de données ;
@@ -57,18 +57,18 @@ Sur le jeu de test, le seuil standard de 0,50 laisse encore passer deux faux bil
 - analyse d'erreurs ;
 - communication des résultats.
 
-## ![](../assets/sections/results.svg) Résultats
+## 📈 Résultats
 
 Le projet fournit un notebook d'analyse, un modèle sauvegardé avec son prétraitement et un script de prédiction robuste au séparateur du fichier CSV. La démarche trace les comparaisons réalisées plutôt que de s'appuyer uniquement sur l'accuracy globale.
 
-## ![](../assets/sections/deliverables.svg) Livrables
+## 📦 Livrables
 
 - [Notebook d'analyse](livrables/P12_analyse_detection_faux_billets.ipynb)
 - [Modèle sauvegardé](livrables/best_billet_model_from_template.joblib)
 - [Script de prédiction](livrables/predict_billets.py)
 - [Présentation de synthèse (PDF)](livrables/P12_presentation_detection_faux_billets.pdf)
 
-## ![](../assets/sections/results.svg) Aperçu de l'évaluation
+## 📈 Aperçu de l'évaluation
 
 Les 37 valeurs manquantes de `margin_low` sont prises en charge par une imputation KNN fondée sur les cinq voisins les plus proches.
 
@@ -90,7 +90,7 @@ K-means fait partie des méthodes comparées ; sa répartition confirme son rôl
   <img src="assets/repartition_kmeans.png" width="411" alt="Répartition des billets par cluster K-means">
 </p>
 
-## ![](../assets/sections/limits.svg) Limites
+## ⚠️ Limites
 
 - représentativité ;
 - généralisation ;
@@ -98,7 +98,7 @@ K-means fait partie des méthodes comparées ; sa répartition confirme son rôl
 - stabilité sur de nouvelles données.
 - le seuil de décision dépend du coût métier relatif des faux négatifs et faux positifs.
 
-## ![](../assets/sections/next.svg) Prochaines pistes
+## 🚀 Prochaines pistes
 
 - validation indépendante ;
 - comparaison d'algorithmes ;

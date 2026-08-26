@@ -12,20 +12,20 @@
 
 
 <p align="center">
-  <img src="assets/atelier_place_du_numerique_apercu.jpg" width="620" alt="Animation de l'atelier IA à Place du Numérique">
+  <img src="assets/atelier_place_du_numerique_apercu.jpg" width="620" alt="Aperçu du support de l’atelier IA">
   <br>
   <sub>Aperçu du support de l’atelier IA</sub>
 </p>
 
-## ![](../assets/sections/context.svg) Contexte
+## 📋 Contexte
 
 Conception d'un atelier de 45 minutes consacré à l'intelligence artificielle pour **Place du Numérique 2026**, avec une approche fondée sur des démonstrations concrètes pour un public varié.
 
-## ![](../assets/sections/goal.svg) Besoin / objectif
+## 🎯 Besoin / objectif
 
 Montrer comment différentes briques d'IA peuvent être combinées dans des applications réelles, tout en expliquant leurs limites, leurs biais et la nécessité de valider leurs résultats.
 
-## ![](../assets/sections/features.svg) Démonstrations
+## ✨ Démonstrations
 
 - assistant météo vocal ;
 - classification d'oiseaux ;
@@ -36,7 +36,7 @@ Montrer comment différentes briques d'IA peuvent être combinées dans des appl
 
 Les démonstrations de visage et de voix synthétiques servent aussi à aborder le consentement, les risques de manipulation et la nécessité de vérifier les contenus.
 
-## ![](../assets/sections/method.svg) Démarche
+## ⚙️ Démarche
 
 Chaque démonstration isole une ou plusieurs étapes d'une chaîne de traitement :
 
@@ -44,7 +44,7 @@ Chaque démonstration isole une ou plusieurs étapes d'une chaîne de traitement
 
 L'objectif est de rendre visibles les composants techniques généralement masqués derrière une interface utilisateur.
 
-## ![](../assets/sections/skills.svg) Compétences mobilisées
+## 🎓 Compétences mobilisées
 
 - intégration de modèles d'IA ;
 - Computer Vision ;
@@ -54,28 +54,28 @@ L'objectif est de rendre visibles les composants techniques généralement masqu
 - analyse critique des résultats ;
 - vulgarisation technique.
 
-## ![](../assets/sections/results.svg) Résultats / état
+## 📈 Résultats / état
 
 Un support de présentation de 45 minutes relie les démonstrations aux notions d'IA, à leurs limites et à leurs usages responsables. Les projets présentés sont distingués des modèles et outils tiers utilisés pour les démontrer.
 
-## ![](../assets/sections/limits.svg) Limites
+## ⚠️ Limites
 
 - dépendance aux modèles préentraînés ;
 - performances sensibles aux données d'entrée ;
 - démonstrations non destinées à constituer un benchmark scientifique.
 
-## ![](../assets/sections/next.svg) Prochaines pistes
+## 🚀 Prochaines pistes
 
 - recueillir les retours du public pour faire évoluer le format ;
 - adapter le niveau de détail technique au public ;
 - maintenir les démonstrations et leur cadre éthique à jour.
 
-## ![](../assets/sections/deliverables.svg) Livrable
+## 📦 Livrable
 
 - [Support de présentation — Place du Numérique 2026 (PDF)](livrables/atelier_ia_place_du_numerique_2026.pdf)
 - [Atelier en images (PDF)](livrables/atelier_ia_place_du_numerique_2026_en_images.pdf)
 
-## ![](../assets/sections/references.svg) Références techniques
+## 🔗 Références techniques
 
 Les démonstrations de conversion vocale et de visage synthétique s'appuient sur des dépôts dérivés d'outils open source. Ils ont été mis à jour et, selon les besoins de démonstration, adaptés. Les projets sources restent crédités ; les modèles et médias associés ne sont pas publiés.
 

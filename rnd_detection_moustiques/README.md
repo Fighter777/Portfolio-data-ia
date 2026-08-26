@@ -13,13 +13,13 @@
   <sub>Schéma conceptuel de détection et de suivi automatisé</sub>
 </p>
 
-## ![](../assets/sections/context.svg) Contexte
+## 📋 Contexte
 
 Étude de faisabilité portant sur un système capable de détecter et suivre automatiquement un moustique en vol.
 
 Le projet est actuellement au stade **R&D / étude de faisabilité**.
 
-## ![](../assets/sections/goal.svg) Besoin / objectif
+## 🎯 Besoin / objectif
 
 Évaluer une architecture capable de :
 - détecter une cible de très petite taille ;
@@ -27,7 +27,7 @@ Le projet est actuellement au stade **R&D / étude de faisabilité**.
 - assurer un suivi suffisamment rapide ;
 - fonctionner avec un coût et une complexité compatibles avec un prototype expérimental.
 
-## ![](../assets/sections/limits.svg) Contraintes
+## ⚠️ Contraintes
 
 - cible de quelques millimètres ;
 - déplacement rapide et imprévisible ;
@@ -37,7 +37,7 @@ Le projet est actuellement au stade **R&D / étude de faisabilité**.
 - coût du matériel ;
 - contraintes de traitement temps réel.
 
-## ![](../assets/sections/method.svg) Technologies / approches étudiées
+## ⚙️ Technologies / approches étudiées
 
 ### Vision par ordinateur
 - détection de mouvement ;
@@ -52,7 +52,7 @@ Le projet est actuellement au stade **R&D / étude de faisabilité**.
 - étude du suivi rapide sur deux axes ;
 - problématique de précision et de distance.
 
-## ![](../assets/sections/method.svg) Démarche R&D
+## ⚙️ Démarche R&D
 
 1. caractériser la cible ;
 2. identifier les technologies possibles ;
@@ -63,13 +63,13 @@ Le projet est actuellement au stade **R&D / étude de faisabilité**.
 7. isoler les verrous techniques ;
 8. définir un banc de validation minimal.
 
-## ![](../assets/sections/results.svg) Résultats de l'étude
+## 📈 Résultats de l'étude
 
 L'étude a identifié la **détection fiable** comme principal verrou.
 
 Elle a également montré qu'une reconstruction volumétrique complète n'est pas forcément nécessaire et qu'une zone de détection restreinte peut réduire la complexité.
 
-## ![](../assets/sections/skills.svg) Compétences mobilisées
+## 🎓 Compétences mobilisées
 
 - veille technologique ;
 - étude de faisabilité ;
@@ -80,7 +80,7 @@ Elle a également montré qu'une reconstruction volumétrique complète n'est pa
 - architecture système ;
 - identification des risques.
 
-## ![](../assets/sections/limits.svg) Limites
+## ⚠️ Limites
 
 Le projet ne dispose pas encore :
 - d'un prototype complet ;
@@ -88,7 +88,7 @@ Le projet ne dispose pas encore :
 - de métriques de détection ;
 - d'une validation en conditions réelles.
 
-## ![](../assets/sections/next.svg) Prochaines étapes
+## 🚀 Prochaines étapes
 
 - définir un banc de test ;
 - tester la détection d'objets de taille comparable ;

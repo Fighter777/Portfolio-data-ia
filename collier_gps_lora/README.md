@@ -13,13 +13,13 @@
   <sub>Maquette de visualisation des essais GPS / LoRa</sub>
 </p>
 
-## ![](../assets/sections/context.svg) Contexte
+## 📋 Contexte
 
 Projet personnel de R&D visant à concevoir un dispositif de localisation compact, autonome et adapté au port par un chat.
 
 Le projet est né d'un retour d'usage : lors d'un essai d'un collier GPS/GSM Weenect, une couverture GSM insuffisante a entraîné une décharge de la batterie en environ trois jours. Cette observation a motivé l'étude d'une solution plus sobre et mieux adaptée à un environnement rural.
 
-## ![](../assets/sections/goal.svg) Besoin / objectif
+## 🎯 Besoin / objectif
 
 Le système doit :
 - déterminer sa position par GNSS ;
@@ -30,7 +30,7 @@ Le système doit :
 - adapter son fonctionnement au mouvement et à la batterie ;
 - fonctionner avec plusieurs stations de réception.
 
-## ![](../assets/sections/architecture.svg) Architecture
+## 🧩 Architecture
 
 - microcontrôleur Nordic ;
 - SX1262 ;
@@ -42,7 +42,7 @@ Le système doit :
 - LiPo ;
 - LED, buzzer et vibration.
 
-## ![](../assets/sections/data.svg) Données
+## 🗃️ Données
 
 - coordonnées GNSS ;
 - état de mouvement ;
@@ -50,7 +50,7 @@ Le système doit :
 - état système ;
 - heartbeat.
 
-## ![](../assets/sections/results.svg) Autonomie : état de la conception
+## 📈 Autonomie : état de la conception
 
 L'objectif est de minimiser la consommation moyenne en adaptant les cycles GNSS et les transmissions à l'activité et au contexte. Une ancienne estimation de dimensionnement existe, mais elle précède l'architecture matérielle actuellement retenue ; elle n'est donc pas utilisée comme résultat du projet.
 
@@ -66,7 +66,7 @@ Ces chiffres sont des estimations de conception antérieures au choix définitif
 
 La consommation finale devra être caractérisée sur prototype avec la nomenclature matérielle retenue, puis confrontée à l'autonomie observée.
 
-## ![](../assets/sections/method.svg) Démarche
+## ⚙️ Démarche
 
 1. définition fonctionnelle ;
 2. sélection des composants ;
@@ -77,13 +77,13 @@ La consommation finale devra être caractérisée sur prototype avec la nomencla
 7. firmware ;
 8. validation terrain.
 
-## ![](../assets/sections/results.svg) Expérimentation LoRa
+## 📈 Expérimentation LoRa
 
 Des essais terrain avec des **Heltec WiFi LoRa 32 V3 / SX1262** et les antennes d'origine ont permis d'obtenir environ **2,5 km** dans les conditions de test avec **SF10**.
 
 Ces essais servent de base au dimensionnement de l'architecture radio finale.
 
-## ![](../assets/sections/skills.svg) Compétences mobilisées
+## 🎓 Compétences mobilisées
 
 - IoT ;
 - systèmes embarqués ;
@@ -96,14 +96,14 @@ Ces essais servent de base au dimensionnement de l'architecture radio finale.
 - sécurité matérielle ;
 - expérimentation terrain.
 
-## ![](../assets/sections/limits.svg) Limites
+## ⚠️ Limites
 
 - consommation GNSS ;
 - compromis fréquence des positions / autonomie ;
 - influence de l'environnement radio ;
 - contraintes mécaniques et thermiques.
 
-## ![](../assets/sections/next.svg) Prochaines étapes
+## 🚀 Prochaines étapes
 
 - finaliser l'architecture ;
 - réaliser le PCB ;
@@ -112,7 +112,7 @@ Ces essais servent de base au dimensionnement de l'architecture radio finale.
 - finaliser le protocole LoRa ;
 - intégrer les stations de réception.
 
-## ![](../assets/sections/deliverables.svg) Publication
+## 📦 Publication
 
 Projet présenté comme preuve de démarche R&D.
 

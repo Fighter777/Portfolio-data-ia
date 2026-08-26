@@ -18,13 +18,13 @@
   <sub>Architecture du benchmark reproductible de LLM locaux</sub>
 </p>
 
-## ![](../assets/sections/context.svg) Contexte
+## 📋 Contexte
 
 Expérimentation de modèles de langage exécutés localement afin d'évaluer leur intérêt pour des usages de développement et d'assistance technique, sans dépendre systématiquement d'un service distant.
 
 Le projet s'inscrit dans une démarche de comparaison pratique : compatibilité, performances, comportement sur des tâches réelles et contraintes matérielles.
 
-## ![](../assets/sections/goal.svg) Besoin / objectif
+## 🎯 Besoin / objectif
 
 Déterminer quelles configurations sont réellement utilisables localement selon plusieurs critères :
 
@@ -36,7 +36,7 @@ Déterminer quelles configurations sont réellement utilisables localement selon
 - compatibilité avec les outils ;
 - capacité à travailler sur du code.
 
-## ![](../assets/sections/architecture.svg) Environnement
+## 🧩 Environnement
 
 Les essais ont notamment porté sur :
 - `llama-server` ;
@@ -50,7 +50,7 @@ Les essais ont notamment porté sur :
 - paramètres ;
 - taille de contexte.
 
-## ![](../assets/sections/method.svg) Démarche
+## ⚙️ Démarche
 
 Pour rendre l'étude exploitable, les essais peuvent être structurés sur un jeu fixe de tâches :
 
@@ -69,7 +69,7 @@ Pour chaque modèle :
 - noter les erreurs ;
 - évaluer la qualité selon une grille commune.
 
-## ![](../assets/sections/skills.svg) Compétences mobilisées
+## 🎓 Compétences mobilisées
 
 - LLM locaux ;
 - inférence ;
@@ -80,13 +80,13 @@ Pour chaque modèle :
 - évaluation qualitative ;
 - reproductibilité.
 
-## ![](../assets/sections/results.svg) État actuel
+## 📈 État actuel
 
 Plusieurs moteurs et modèles ont déjà été testés en conditions réelles.
 
 Le projet doit encore être **formalisé sous forme de benchmark reproductible** avant de présenter des conclusions comparatives définitives.
 
-## ![](../assets/sections/results.svg) Résultats
+## 📈 Résultats
 
 **[À compléter à partir d'une campagne standardisée]**
 
@@ -98,14 +98,14 @@ Exemples de mesures à publier :
 - qualité de modification de code ;
 - stabilité sur contexte long.
 
-## ![](../assets/sections/limits.svg) Limites
+## ⚠️ Limites
 
 - jugement qualitatif partiellement subjectif ;
 - résultats dépendants de la quantification et des paramètres ;
 - versions des modèles et moteurs évoluant rapidement ;
 - comparaison matérielle à normaliser.
 
-## ![](../assets/sections/next.svg) Prochaines étapes
+## 🚀 Prochaines étapes
 
 - définir un jeu de prompts stable ;
 - automatiser les mesures ;

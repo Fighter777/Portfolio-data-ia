@@ -15,26 +15,26 @@
   <sub>Schéma relationnel du projet</sub>
 </p>
 
-## ![](../assets/sections/context.svg) Contexte
+## 📋 Contexte
 
 Projet du parcours Data Analyst d'OpenClassrooms consacré à la construction et à l'exploitation d'une base de données relationnelle.
 
-## ![](../assets/sections/goal.svg) Objectif
+## 🎯 Objectif
 
 Transformer un besoin de gestion en un modèle de données cohérent, puis produire des requêtes SQL répondant aux questions métier.
 
-## ![](../assets/sections/method.svg) Démarche
+## ⚙️ Démarche
 
 - étude des entités, attributs et relations ;
 - formalisation du schéma de données et du dictionnaire associé ;
 - création des tables SQL, notamment autour des données d'étudiants, de régions et de contrats ;
 - rédaction et vérification des requêtes demandées.
 
-## ![](../assets/sections/skills.svg) Compétences mobilisées
+## 🎓 Compétences mobilisées
 
 SQL, modélisation relationnelle, clés primaires et étrangères, intégrité référentielle, dictionnaire de données.
 
-## ![](../assets/sections/results.svg) Aperçu du projet
+## 📈 Aperçu du projet
 
 Le schéma relationnel matérialise le lien entre les contrats et leur contexte géographique. Il constitue la base des requêtes d'analyse et des contrôles d'intégrité.
 
@@ -60,7 +60,7 @@ Les requêtes SQL permettent ensuite de comparer les contrats par région et d'e
   <img src="assets/cotisation_moyenne_par_departement.png" width="290" alt="Cotisation moyenne par département">
 </p>
 
-## ![](../assets/sections/deliverables.svg) Livrables réalisés
+## 📦 Livrables réalisés
 
 Le projet d'origine contient le schéma, les scripts SQL, un dictionnaire de données et une documentation technique. Les données brutes ne sont pas dupliquées dans ce portfolio.
 

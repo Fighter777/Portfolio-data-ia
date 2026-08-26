@@ -13,13 +13,13 @@
   <sub>Workflow du projet Data augmenté avec l’IA et du portfolio</sub>
 </p>
 
-## ![](../assets/sections/context.svg) Contexte
+## 📋 Contexte
 
 Dernier projet du parcours **Data Analyst OpenClassrooms**.
 
 Le projet reprend le livrable du P6 afin de l'améliorer avec l'aide de l'IA selon une démarche **critique, comparative et documentée**, puis construit le portfolio professionnel.
 
-## ![](../assets/sections/goal.svg) Objectifs
+## 🎯 Objectifs
 
 - veille métier et technologique ;
 - identification du besoin ;
@@ -30,7 +30,7 @@ Le projet reprend le livrable du P6 afin de l'améliorer avec l'aide de l'IA sel
 - documentation et traçabilité ;
 - présentation de preuves de compétences.
 
-## ![](../assets/sections/part.svg) Partie 1 — Amélioration du P6
+## 📌 Partie 1 — Amélioration du P6
 
 Les essais doivent conserver la trace :
 - des outils ;
@@ -48,7 +48,7 @@ Critères possibles :
 - conformité ;
 - maintenabilité.
 
-## ![](../assets/sections/part.svg) Cadrage métier
+## 📌 Cadrage métier
 
 Le cahier des charges doit préciser :
 - contexte ;
@@ -59,7 +59,7 @@ Le cahier des charges doit préciser :
 - critères de réussite ;
 - livrables.
 
-## ![](../assets/sections/part.svg) Pilotage
+## 📌 Pilotage
 
 - découpage en lots ;
 - backlog ;
@@ -70,7 +70,7 @@ Le cahier des charges doit préciser :
 - risques ;
 - validations.
 
-## ![](../assets/sections/part.svg) Documentation
+## 📌 Documentation
 
 - hypothèses ;
 - essais ;
@@ -81,7 +81,7 @@ Le cahier des charges doit préciser :
 - versions ;
 - instructions d'exécution.
 
-## ![](../assets/sections/part.svg) Partie 2 — Portfolio
+## 📌 Partie 2 — Portfolio
 
 Le portfolio présente des projets OpenClassrooms et des projets personnels pertinents.
 
@@ -89,7 +89,7 @@ Chaque preuve suit la logique :
 
 **contexte → besoin métier → données → démarche → résultats → impact / recommandations → limites → prochaines pistes**
 
-## ![](../assets/sections/results.svg) État actuel
+## 📈 État actuel
 
 Projet en cours.
 

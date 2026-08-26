@@ -19,20 +19,20 @@
   <sub>Détection et identification d’oiseaux sur une séquence vidéo</sub>
 </p>
 
-## ![](../assets/sections/context.svg) Contexte
+## 📋 Contexte
 
 Projet de vision par ordinateur appliqué à l'analyse d'images et de vidéos d'oiseaux observés autour d'une mangeoire.
 
-## ![](../assets/sections/goal.svg) Besoin / objectif
+## 🎯 Besoin / objectif
 
 Détecter automatiquement la présence d'un animal dans un flux vidéo, puis identifier l'espèce lorsque la qualité de l'image le permet.
 
 
-## ![](../assets/sections/data.svg) Données
+## 🗃️ Données
 
 Jeu d'images organisé par classe, complété par des séquences vidéo de mangeoire. Le modèle multi-espèces de référence couvre 12 espèces locales, avec un jeu d'entraînement de 19 061 images et un jeu de test de 4 094 images.
 
-## ![](../assets/sections/method.svg) Démarche
+## ⚙️ Démarche
 
 1. préparation et équilibrage du jeu d'images ;
 2. entraînement et comparaison de plusieurs versions ConvNeXt-Small sur GPU CUDA ;
@@ -40,7 +40,7 @@ Jeu d'images organisé par classe, complété par des séquences vidéo de mange
 4. classification de la zone détectée avec le modèle entraîné, avec exploration de SpeciesNet ;
 5. export des prédictions et revue des erreurs.
 
-## ![](../assets/sections/skills.svg) Compétences mobilisées
+## 🎓 Compétences mobilisées
 
 - Computer Vision ;
 - PyTorch ;
@@ -50,7 +50,7 @@ Jeu d'images organisé par classe, complété par des séquences vidéo de mange
 - entraînement et évaluation d'un modèle de classification ;
 - analyse d'erreurs.
 
-## ![](../assets/sections/results.svg) Résultats
+## 📈 Résultats
 
 Six entraînements multi-espèces ont été réalisés. Le modèle de référence `ConvNeXt-Small v4` atteint **91,11 % d'accuracy sur le jeu de test**. Les comparaisons montrent qu'augmenter ou uniformiser le volume de données ne suffit pas à améliorer systématiquement le résultat : le tri qualitatif des images reste déterminant.
 
@@ -60,7 +60,7 @@ Six entraînements multi-espèces ont été réalisés. Le modèle de référenc
 
 Le pipeline produit des captures, des prédictions CSV et des vidéos annotées. Des essais sur séquences de mangeoire sont disponibles ; ils ne remplacent pas encore une validation terrain formalisée.
 
-## ![](../assets/sections/limits.svg) Limites
+## ⚠️ Limites
 
 - faible luminosité ;
 - occultation ;
@@ -70,14 +70,14 @@ Le pipeline produit des captures, des prédictions CSV et des vidéos annotées.
 - décalage entre données réelles et données d'entraînement.
 - une prédiction d'espèce n'est pas une vérité terrain sans revue adaptée.
 
-## ![](../assets/sections/next.svg) Prochaines pistes
+## 🚀 Prochaines pistes
 
 - produire une matrice de confusion du modèle de référence ;
 - analyser les confusions entre espèces proches ;
 - formaliser un jeu de validation sur vidéos de terrain ;
 - comparer les configurations MegaDetector, ConvNeXt-Small et SpeciesNet.
 
-## ![](../assets/sections/references.svg) Sources
+## 🔗 Sources
 
 - [Dépôt du projet](https://github.com/Fighter777/animal_species_detection/)
 - [Suivi des entraînements](https://github.com/Fighter777/animal_species_detection/blob/main/docs/suivi_entrainements.md)

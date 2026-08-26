@@ -15,21 +15,21 @@
   <sub>Vue globale du tableau de bord Sanitoral</sub>
 </p>
 
-## ![](../assets/sections/context.svg) Contexte
+## 📋 Contexte
 
 Projet de Business Intelligence réalisé dans le parcours **Data Analyst OpenClassrooms**, autour de l'entreprise fictive Sanitoral.
 
-## ![](../assets/sections/goal.svg) Besoin métier
+## 🎯 Besoin métier
 
 Mettre à disposition un tableau de bord interactif de suivi des projets IT et Marketing pour identifier les retards, dérives de coûts et écarts sur les livrables.
 
 Les publics visés sont la direction générale, les directions régionales et les directions pays.
 
-## ![](../assets/sections/data.svg) Données
+## 🗃️ Données
 
 Données fictives de projets, de phases et d'indicateurs de performance : coûts, délais et livrables. Les données sont préparées dans Power Query avant modélisation dans Power BI.
 
-## ![](../assets/sections/method.svg) Démarche
+## ⚙️ Démarche
 
 1. compréhension du besoin ;
 2. préparation ;
@@ -40,7 +40,7 @@ Données fictives de projets, de phases et d'indicateurs de performance : coûts
 7. validation du tableau de bord.
 
 
-## ![](../assets/sections/results.svg) Résultats
+## 📈 Résultats
 
 Le livrable est un tableau de bord Power BI interactif, filtrable par région, pays et type de projet. Il fournit une lecture globale des performances et aide à prioriser les projets présentant un écart significatif entre prévision et réalisé.
 
@@ -72,7 +72,7 @@ La page de documentation explicite les KPI, seuils d'alerte, processus de mise �
   <img src="assets/product_strategy_canvas.png" width="760" alt="Product Strategy Canvas">
 </p>
 
-## ![](../assets/sections/skills.svg) Compétences mobilisées
+## 🎓 Compétences mobilisées
 
 - Business Intelligence ;
 - modélisation ;
@@ -81,7 +81,7 @@ La page de documentation explicite les KPI, seuils d'alerte, processus de mise �
 - datavisualisation ;
 - restitution métier.
 
-## ![](../assets/sections/limits.svg) Limites et prochaines pistes
+## ⚠️ Limites et prochaines pistes
 
 Le cas est construit sur des données pédagogiques. En contexte réel, le modèle devrait être alimenté par des sources opérationnelles actualisées, avec des règles de qualité et de gouvernance documentées.
 

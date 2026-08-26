@@ -15,26 +15,26 @@
   <sub>Schéma relationnel de la base immobilière</sub>
 </p>
 
-## ![](../assets/sections/context.svg) Contexte
+## 📋 Contexte
 
 Projet du parcours Data Analyst d'OpenClassrooms portant sur l'organisation et l'interrogation de données immobilières.
 
-## ![](../assets/sections/goal.svg) Objectif
+## 🎯 Objectif
 
 Structurer les informations liées aux biens et aux communes afin de faciliter leur consultation et leur analyse dans une base relationnelle.
 
-## ![](../assets/sections/method.svg) Démarche
+## ⚙️ Démarche
 
 - analyse de la structure des données immobilières ;
 - création et alimentation des tables SQL ;
 - utilisation de clés et de contraintes pour relier les biens à leur contexte géographique ;
 - écriture de requêtes d'exploration et de contrôle.
 
-## ![](../assets/sections/skills.svg) Compétences mobilisées
+## 🎓 Compétences mobilisées
 
 MySQL, SQL, modélisation relationnelle, contraintes, indexation et contrôle de cohérence.
 
-## ![](../assets/sections/results.svg) Aperçu du projet
+## 📈 Aperçu du projet
 
 Le modèle relationnel relie les ventes, les biens, les communes, les départements et les régions pour permettre l'analyse des transactions immobilières.
 
@@ -58,7 +58,7 @@ Les requêtes répondent ensuite à des questions métier sur les prix et les vo
   <img src="assets/prix_m2_ile_de_france.png" width="322" alt="Prix moyen au mètre carré en Île-de-France">
 </p>
 
-## ![](../assets/sections/deliverables.svg) Livrables réalisés
+## 📦 Livrables réalisés
 
 Les données brutes et les scripts sources ne sont pas recopiés ici afin de garder le portfolio léger.
 
