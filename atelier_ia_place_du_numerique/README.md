@@ -12,7 +12,7 @@
 
 
 <p align="center">
-  <img src="assets/atelier_place_du_numerique_apercu.jpg" width="620" alt="Aperçu du support de l’atelier IA">
+  <img src="assets/atelier_place_du_numerique_apercu.jpg" width="620" alt="Animation de l'atelier IA à Place du Numérique">
   <br>
   <sub>Aperçu du support de l’atelier IA</sub>
 </p>
