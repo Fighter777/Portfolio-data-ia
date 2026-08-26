@@ -6,13 +6,20 @@
 
 ---
 
-## Contexte
+
+<p align="center">
+  <img src="assets/schema_rnd_detection_moustiques.png" width="720" alt="Schéma conceptuel de détection et de suivi automatisé">
+  <br>
+  <sub>Schéma conceptuel de détection et de suivi automatisé</sub>
+</p>
+
+## ![](../assets/sections/context.svg) Contexte
 
 Étude de faisabilité portant sur un système capable de détecter et suivre automatiquement un moustique en vol.
 
 Le projet est actuellement au stade **R&D / étude de faisabilité**.
 
-## Besoin / objectif
+## ![](../assets/sections/goal.svg) Besoin / objectif
 
 Évaluer une architecture capable de :
 - détecter une cible de très petite taille ;
@@ -20,7 +27,7 @@ Le projet est actuellement au stade **R&D / étude de faisabilité**.
 - assurer un suivi suffisamment rapide ;
 - fonctionner avec un coût et une complexité compatibles avec un prototype expérimental.
 
-## Contraintes
+## ![](../assets/sections/limits.svg) Contraintes
 
 - cible de quelques millimètres ;
 - déplacement rapide et imprévisible ;
@@ -30,7 +37,7 @@ Le projet est actuellement au stade **R&D / étude de faisabilité**.
 - coût du matériel ;
 - contraintes de traitement temps réel.
 
-## Technologies / approches étudiées
+## ![](../assets/sections/method.svg) Technologies / approches étudiées
 
 ### Vision par ordinateur
 - détection de mouvement ;
@@ -45,7 +52,7 @@ Le projet est actuellement au stade **R&D / étude de faisabilité**.
 - étude du suivi rapide sur deux axes ;
 - problématique de précision et de distance.
 
-## Démarche R&D
+## ![](../assets/sections/method.svg) Démarche R&D
 
 1. caractériser la cible ;
 2. identifier les technologies possibles ;
@@ -56,17 +63,13 @@ Le projet est actuellement au stade **R&D / étude de faisabilité**.
 7. isoler les verrous techniques ;
 8. définir un banc de validation minimal.
 
-<p align="center">
-  <img src="assets/schema_rnd_detection_moustiques.png" width="760" alt="Schéma conceptuel de détection et suivi automatisé de moustiques">
-</p>
-
-## Résultats de l'étude
+## ![](../assets/sections/results.svg) Résultats de l'étude
 
 L'étude a identifié la **détection fiable** comme principal verrou.
 
 Elle a également montré qu'une reconstruction volumétrique complète n'est pas forcément nécessaire et qu'une zone de détection restreinte peut réduire la complexité.
 
-## Compétences mobilisées
+## ![](../assets/sections/skills.svg) Compétences mobilisées
 
 - veille technologique ;
 - étude de faisabilité ;
@@ -77,7 +80,7 @@ Elle a également montré qu'une reconstruction volumétrique complète n'est pa
 - architecture système ;
 - identification des risques.
 
-## Limites
+## ![](../assets/sections/limits.svg) Limites
 
 Le projet ne dispose pas encore :
 - d'un prototype complet ;
@@ -85,7 +88,7 @@ Le projet ne dispose pas encore :
 - de métriques de détection ;
 - d'une validation en conditions réelles.
 
-## Prochaines étapes
+## ![](../assets/sections/next.svg) Prochaines étapes
 
 - définir un banc de test ;
 - tester la détection d'objets de taille comparable ;

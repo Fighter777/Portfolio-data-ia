@@ -11,17 +11,20 @@
 
 ---
 
+
 <p align="center">
-  <img src="assets/architecture_benchmark_llm.svg" width="760" alt="Architecture prévue du benchmark reproductible">
+  <img src="assets/architecture_benchmark_llm.svg" width="720" alt="Architecture du benchmark reproductible de LLM locaux">
+  <br>
+  <sub>Architecture du benchmark reproductible de LLM locaux</sub>
 </p>
 
-## Contexte
+## ![](../assets/sections/context.svg) Contexte
 
 Expérimentation de modèles de langage exécutés localement afin d'évaluer leur intérêt pour des usages de développement et d'assistance technique, sans dépendre systématiquement d'un service distant.
 
 Le projet s'inscrit dans une démarche de comparaison pratique : compatibilité, performances, comportement sur des tâches réelles et contraintes matérielles.
 
-## Besoin / objectif
+## ![](../assets/sections/goal.svg) Besoin / objectif
 
 Déterminer quelles configurations sont réellement utilisables localement selon plusieurs critères :
 
@@ -33,7 +36,7 @@ Déterminer quelles configurations sont réellement utilisables localement selon
 - compatibilité avec les outils ;
 - capacité à travailler sur du code.
 
-## Environnement
+## ![](../assets/sections/architecture.svg) Environnement
 
 Les essais ont notamment porté sur :
 - `llama-server` ;
@@ -47,7 +50,7 @@ Les essais ont notamment porté sur :
 - paramètres ;
 - taille de contexte.
 
-## Démarche
+## ![](../assets/sections/method.svg) Démarche
 
 Pour rendre l'étude exploitable, les essais peuvent être structurés sur un jeu fixe de tâches :
 
@@ -66,7 +69,7 @@ Pour chaque modèle :
 - noter les erreurs ;
 - évaluer la qualité selon une grille commune.
 
-## Compétences mobilisées
+## ![](../assets/sections/skills.svg) Compétences mobilisées
 
 - LLM locaux ;
 - inférence ;
@@ -77,13 +80,13 @@ Pour chaque modèle :
 - évaluation qualitative ;
 - reproductibilité.
 
-## État actuel
+## ![](../assets/sections/results.svg) État actuel
 
 Plusieurs moteurs et modèles ont déjà été testés en conditions réelles.
 
 Le projet doit encore être **formalisé sous forme de benchmark reproductible** avant de présenter des conclusions comparatives définitives.
 
-## Résultats
+## ![](../assets/sections/results.svg) Résultats
 
 **[À compléter à partir d'une campagne standardisée]**
 
@@ -95,14 +98,14 @@ Exemples de mesures à publier :
 - qualité de modification de code ;
 - stabilité sur contexte long.
 
-## Limites
+## ![](../assets/sections/limits.svg) Limites
 
 - jugement qualitatif partiellement subjectif ;
 - résultats dépendants de la quantification et des paramètres ;
 - versions des modèles et moteurs évoluant rapidement ;
 - comparaison matérielle à normaliser.
 
-## Prochaines étapes
+## ![](../assets/sections/next.svg) Prochaines étapes
 
 - définir un jeu de prompts stable ;
 - automatiser les mesures ;

@@ -11,13 +11,20 @@
 
 ---
 
-## Contexte
+
+<p align="center">
+  <img src="assets/schema_acquisition_vibrations.png" width="720" alt="Architecture prévue pour l’acquisition des vibrations et de la vitesse véhicule">
+  <br>
+  <sub>Architecture prévue pour l’acquisition des vibrations et de la vitesse véhicule</sub>
+</p>
+
+## ![](../assets/sections/context.svg) Contexte
 
 Projet expérimental visant à caractériser des vibrations apparaissant sur un véhicule à certaines vitesses après un changement de pneumatiques.
 
 Le projet est actuellement en **phase de préparation expérimentale** : le matériel est disponible et le protocole de mesure est défini, mais la campagne instrumentée sur véhicule reste à réaliser.
 
-## Besoin / objectif
+## ![](../assets/sections/goal.svg) Besoin / objectif
 
 Remplacer une appréciation subjective par des mesures permettant d'étudier la corrélation entre :
 
@@ -26,18 +33,14 @@ Remplacer une appréciation subjective par des mesures permettant d'étudier la 
 - fréquence de rotation des roues ;
 - position du capteur.
 
-## Matériel
+## ![](../assets/sections/hardware.svg) Matériel
 
 - 2 cartes Analog Devices **EVAL-ADXL357Z** ;
 - ESP32 pour les premiers essais ;
 - récupération de la vitesse via OBD2 envisagée ;
 - véhicule équipé de roues de 20 pouces.
 
-<p align="center">
-  <img src="assets/schema_acquisition_vibrations.png" width="760" alt="Schéma de l'architecture d'acquisition vibratoire automobile">
-</p>
-
-## Données prévues
+## ![](../assets/sections/data.svg) Données prévues
 
 - accélérations multiaxes ;
 - horodatage ;
@@ -45,7 +48,7 @@ Remplacer une appréciation subjective par des mesures permettant d'étudier la 
 - position du capteur ;
 - conditions d'essai.
 
-## Protocole envisagé
+## ![](../assets/sections/method.svg) Protocole envisagé
 
 1. validation des capteurs ;
 2. définition de la fixation ;
@@ -56,7 +59,7 @@ Remplacer une appréciation subjective par des mesures permettant d'étudier la 
 7. analyse fréquentielle ;
 8. comparaison entre positions.
 
-## Analyse prévue
+## ![](../assets/sections/method.svg) Analyse prévue
 
 - amplitude vibratoire selon la vitesse ;
 - fréquence dominante ;
@@ -64,7 +67,7 @@ Remplacer une appréciation subjective par des mesures permettant d'étudier la 
 - corrélation fréquence / vitesse ;
 - comparaison avant / arrière.
 
-## État actuel
+## ![](../assets/sections/results.svg) État actuel
 
 Deux cartes **EVAL-ADXL357Z** ont été acquises.
 
@@ -76,7 +79,7 @@ Les observations routières initiales à instrumenter sont :
 
 Ces observations servent à définir le protocole ; elles ne constituent pas un diagnostic.
 
-## Compétences mobilisées
+## ![](../assets/sections/skills.svg) Compétences mobilisées
 
 - instrumentation ;
 - capteurs MEMS ;
@@ -86,7 +89,7 @@ Ces observations servent à définir le protocole ; elles ne constituent pas un 
 - analyse fréquentielle ;
 - conception d'un protocole expérimental.
 
-## Limites actuelles
+## ![](../assets/sections/limits.svg) Limites actuelles
 
 Aucune conclusion physique ne peut encore être tirée sans acquisition instrumentée.
 
@@ -96,7 +99,7 @@ Les résultats dépendront notamment :
 - de la synchronisation ;
 - de la position des capteurs.
 
-## Prochaines étapes
+## ![](../assets/sections/next.svg) Prochaines étapes
 
 - valider l'acquisition ADXL357 ;
 - définir le format des données ;

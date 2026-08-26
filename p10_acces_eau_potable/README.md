@@ -8,15 +8,22 @@
 
 ---
 
-## Contexte
+
+<p align="center">
+  <img src="assets/priorisation_intervention.png" width="760" alt="Matrice de priorisation des interventions">
+  <br>
+  <sub>Matrice de priorisation des interventions</sub>
+</p>
+
+## ![](../assets/sections/context.svg) Contexte
 
 Projet Data Analyst consacré à l'analyse des conditions d'accès à l'eau potable pour l'organisation fictive DWFA.
 
-## Objectif
+## ![](../assets/sections/goal.svg) Objectif
 
 Construire une base d'analyse et un tableau de bord pour identifier les pays et populations à prioriser.
 
-## Données analysées
+## ![](../assets/sections/data.svg) Données analysées
 
 - accès aux services d'eau potable de base et gérés en toute sécurité ;
 - mortalité attribuable à des facteurs liés à l'eau, l'assainissement et l'hygiène ;
@@ -25,14 +32,14 @@ Construire une base d'analyse et un tableau de bord pour identifier les pays et 
 
 Les séries couvrent principalement les années 2000 à 2017, selon la source.
 
-## Démarche
+## ![](../assets/sections/method.svg) Démarche
 
 - contrôle, documentation et préparation des jeux de données ;
 - création d'indicateurs de priorisation ;
 - conception d'une maquette puis d'un tableau de bord Power BI ;
 - restitution à travers des pages KPI, d'analyse géographique et de comparaison des facteurs.
 
-## Livrable et aperçus
+## ![](../assets/sections/results.svg) Livrable et aperçus
 
 Le tableau de bord interactif est disponible dans [livrables/P10_tableau_bord_acces_eau_potable.pbix](livrables/P10_tableau_bord_acces_eau_potable.pbix).
 
@@ -68,15 +75,11 @@ Une vue régionale synthétise les indicateurs et formule une recommandation con
   <img src="assets/analyse_regionale_nepal.png" width="760" alt="Analyse régionale du Népal">
 </p>
 
-<p align="center">
-  <img src="assets/priorisation_intervention.png" width="760" alt="Matrice de priorisation des interventions">
-</p>
-
-## Compétences mobilisées
+## ![](../assets/sections/skills.svg) Compétences mobilisées
 
 Power BI, Power Query, modélisation de données, analyse exploratoire, visualisation et data storytelling.
 
-## Limites
+## ![](../assets/sections/limits.svg) Limites
 
 Les indicateurs internationaux sont agrégés et n'ont pas tous la même période de disponibilité. Ils orientent une priorisation à l'échelle pays, sans remplacer une étude locale.
 

@@ -11,13 +11,20 @@
 
 ---
 
-## Contexte
+
+<p align="center">
+  <img src="assets/interface_principale_transcription.jpg" width="760" alt="Interface principale de transcription locale">
+  <br>
+  <sub>Interface principale de transcription locale</sub>
+</p>
+
+## ![](../assets/sections/context.svg) Contexte
 
 Application locale de transcription conçue pour traiter de longs enregistrements de réunions liés à un projet autoroutier, sans envoyer les médias ni les résultats vers un service de transcription distant.
 
 Le traitement est exécuté sur une **NVIDIA RTX 3090**.
 
-## Besoin métier
+## ![](../assets/sections/goal.svg) Besoin métier
 
 Transformer des enregistrements audio ou vidéo en documents exploitables tout en conservant un mécanisme explicite de validation humaine.
 
@@ -31,7 +38,7 @@ Les besoins couverts sont notamment :
 - nouvelle transcription locale d'un court extrait ;
 - correction manuelle traçable.
 
-## Architecture
+## ![](../assets/sections/architecture.svg) Architecture
 
 **audio / vidéo → FFmpeg → Whisper large-v3 → corrections validées → TXT / SRT / VTT**
 
@@ -42,7 +49,7 @@ Contrôle qualité :
 **segments de faible confiance → extrait audio → décodages alternatifs → validation utilisateur**
 
 
-## Démarche
+## ![](../assets/sections/method.svg) Démarche
 
 Le projet ne considère pas la sortie de transcription comme une vérité automatique.
 
@@ -55,23 +62,19 @@ Les passages les moins fiables sont remontés à l'utilisateur afin qu'il puisse
 
 Une normalisation du volume et un gain supplémentaire peuvent être appliqués avant transcription pour les enregistrements faibles ou irréguliers. Les corrections persistantes ne sont enregistrées qu'après validation explicite.
 
-## Confidentialité
+## ![](../assets/sections/privacy.svg) Confidentialité
 
 - interface limitée à `127.0.0.1` ;
 - médias et résultats traités localement ;
 - jeton de diarisation utilisé uniquement en mémoire ;
 - aucun service distant de transcription utilisé.
 
-## Résultats
+## ![](../assets/sections/results.svg) Résultats
 
 L'application produit :
 - `TXT` ;
 - `SRT` ;
 - `VTT`.
-
-<p align="center">
-  <img src="assets/interface_principale_transcription.jpg" width="760" alt="Interface principale de transcription locale">
-</p>
 
 Elle permet également une relecture ciblée des **30 segments présentant la confiance acoustique la plus faible**.
 
@@ -79,7 +82,7 @@ Elle permet également une relecture ciblée des **30 segments présentant la co
   <img src="assets/relecture_ciblee_transcription.jpg" width="760" alt="Interface de relecture ciblée d'un segment à vérifier">
 </p>
 
-## Compétences mobilisées
+## ![](../assets/sections/skills.svg) Compétences mobilisées
 
 - Speech-to-Text ;
 - traitement de données non structurées ;
@@ -90,14 +93,14 @@ Elle permet également une relecture ciblée des **30 segments présentant la co
 - confidentialité ;
 - orchestration locale de modèles.
 
-## Limites
+## ![](../assets/sections/limits.svg) Limites
 
 - transcription susceptible de produire des erreurs malgré un audio intelligible ;
 - diarisation indicative ;
 - chevauchements de voix et microphones éloignés difficiles à traiter ;
 - une seule transcription simultanée pour préserver la mémoire GPU.
 
-## Prochaines pistes
+## ![](../assets/sections/next.svg) Prochaines pistes
 
 - mesurer précisément le temps de traitement ;
 - quantifier les corrections nécessaires par heure d'audio ;

@@ -11,16 +11,23 @@
 
 ---
 
-## Contexte
+
+<p align="center">
+  <img src="assets/top_chiffre_affaires.png" width="760" alt="Principales références par chiffre d’affaires">
+  <br>
+  <sub>Principales références par chiffre d’affaires</sub>
+</p>
+
+## ![](../assets/sections/context.svg) Contexte
 
 Projet réalisé dans le cadre du parcours **Data Analyst OpenClassrooms**.
 
 
-## Besoin métier
+## ![](../assets/sections/goal.svg) Besoin métier
 
 Réconcilier le catalogue issu de l'ERP avec les produits publiés sur le site e-commerce, puis analyser les ventes, les prix et les stocks afin d'identifier des anomalies et des produits à surveiller.
 
-## Données
+## ![](../assets/sections/data.svg) Données
 
 Trois sources Excel sont exploitées : le catalogue ERP, les produits du site e-commerce et une table de liaison entre leurs références.
 
@@ -29,7 +36,7 @@ Trois sources Excel sont exploitées : le catalogue ERP, les produits du site e-
 - 111 références non rapprochées à investiguer ;
 - variables principales : prix, quantité en stock, ventes cumulées et métadonnées de publication.
 
-## Démarche
+## ![](../assets/sections/method.svg) Démarche
 
 1. compréhension du besoin ;
 2. audit des données ;
@@ -40,11 +47,11 @@ Trois sources Excel sont exploitées : le catalogue ERP, les produits du site e-
 7. recommandations.
 
 
-## Résultats
+## ![](../assets/sections/results.svg) Résultats
 
 Le notebook produit un jeu de données consolidé, contrôle les incohérences de prix et de stock, et présente les ventes cumulées par produit. L'analyse met notamment en évidence des valeurs négatives à vérifier dans les données de prix ou de stock, ainsi que les références sans correspondance entre ERP et site.
 
-## Aperçu de l'analyse
+## ![](../assets/sections/results.svg) Aperçu de l'analyse
 
 La distribution des prix met en évidence un catalogue majoritairement positionné sur des prix accessibles, complété par quelques références premium.
 
@@ -67,10 +74,6 @@ La matrice permet de mettre en regard prix, coût d'achat, stock, ventes cumulé
 Les classements par chiffre d'affaires et par quantités vendues distinguent les références qui génèrent le plus de valeur de celles qui génèrent le plus de volume.
 
 <p align="center">
-  <img src="assets/top_chiffre_affaires.png" width="760" alt="Top 20 des articles en chiffre d'affaires">
-</p>
-
-<p align="center">
   <img src="assets/top_quantites_vendues.png" width="760" alt="Top 20 des articles en quantités vendues">
 </p>
 
@@ -80,7 +83,7 @@ Enfin, la couverture de stock en mois identifie les références à surveiller p
   <img src="assets/couverture_stock_mois.png" width="760" alt="Top 20 des produits avec le plus de mois de stock">
 </p>
 
-## Compétences mobilisées
+## ![](../assets/sections/skills.svg) Compétences mobilisées
 
 - préparation des données ;
 - EDA ;
@@ -89,13 +92,13 @@ Enfin, la couverture de stock en mois identifie les références à surveiller p
 - interprétation métier ;
 - documentation.
 
-## Limites
+## ![](../assets/sections/limits.svg) Limites
 
 - les ventes sont disponibles sous forme cumulée, sans historique de transactions ;
 - les dates de publication WordPress ne correspondent pas à des dates d'achat ;
 - il n'est donc pas possible d'établir une prévision saisonnière fiable à partir de ce jeu de données seul.
 
-## Livrables
+## ![](../assets/sections/deliverables.svg) Livrables
 
 - [Notebook d'analyse](livrables/P6_analyse_catalogue_caviste.ipynb)
 - [Présentation de synthèse (PDF)](livrables/P6_presentation_analyse_catalogue_caviste.pdf)
