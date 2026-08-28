@@ -51,6 +51,7 @@ Deux axes structurent ce portfolio :
 | [Détection de moustiques](#moustiques) |  | ✓ | ✓ |  |  |  |  | ✓ |
 | [LLM locaux](#llm-locaux) |  | ✓ |  |  | ✓ | ✓ |  | ✓ |
 | [Batterie résidentielle DIY](#batterie) | ✓ |  |  |  |  |  | ✓ | ✓ |
+| [Veille Data & IA](#veille-data-ia) | ✓ | ✓ |  |  | ✓ |  |  |  | ✓ |
 
 ---
 
@@ -226,7 +227,7 @@ Comparaison de régression logistique, KNN, Random Forest et K-means sur **1 500
   <img src="assets/logos/sklearn.svg" width="26" alt="scikit-learn" title="scikit-learn">
 </p>
 
-Dernier projet du parcours : amélioration critique du P6 avec l'IA, veille technologique, cahier des charges, comparaison d'options, traçabilité des essais et construction du portfolio.
+Dernier projet du parcours : amélioration critique du P6 avec l'IA, veille technologique, cahier des charges, comparaison d'options, traçabilité des essais et construction du portfolio. Une application Streamlit de veille avec pré-classification locale par Qwen complète la démarche.
 
 **État actuel :** la partie portfolio est engagée ; l'amélioration IA du P6 reste à réaliser et sera documentée séparément avec ses prompts, variantes, décisions et limites.
 
@@ -235,6 +236,15 @@ Dernier projet du parcours : amélioration critique du P6 avec l'IA, veille tech
 ---
 
 # <img src="assets/icons/atelier-ai.svg" width="34" valign="middle" alt="IA appliquée"> Projets personnels — IA appliquée
+
+<a id="veille-data-ia"></a>
+## <img src="assets/icons/p13-ai.svg" width="30" alt="Veille IA"> Veille Data & IA
+
+Application Streamlit de collecte RSS/Atom, avec archivage SQLite, pré-classification locale par Qwen et traduction d'extraits RSS.
+
+➡️ [Voir le projet](veille_data_ia/)
+
+---
 
 <a id="transcription"></a>
 ## <img src="assets/icons/transcription.svg" width="30" alt="Microphone"> Transcription locale et assistée de réunions

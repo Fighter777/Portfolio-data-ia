@@ -39,6 +39,12 @@ Les essais doivent conserver la trace :
 - des résultats ;
 - des décisions.
 
+## 🔎 Veille Data & IA
+
+Une application de veille dédiée a été développée pour soutenir le projet : collecte RSS/Atom, journalisation, pré-classification locale par Qwen et traduction d'extraits RSS.
+
+➡️ [Voir la fiche de l'application de veille](../veille_data_ia/)
+
 Critères possibles :
 - qualité ;
 - biais ;
