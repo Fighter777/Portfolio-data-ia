@@ -52,6 +52,7 @@ Deux axes structurent ce portfolio :
 | [LLM locaux](#llm-locaux) |  | ✓ |  |  | ✓ | ✓ |  | ✓ |
 | [Batterie résidentielle DIY](#batterie) | ✓ |  |  |  |  |  | ✓ | ✓ |
 | [Veille Data & IA](#veille-data-ia) | ✓ | ✓ |  |  | ✓ |  |  |  | ✓ |
+| [Assistant IA de notebook](#assistant-notebook-ia) | ✓ | ✓ |  |  | ✓ |  |  |  | ✓ |
 
 ---
 
@@ -227,7 +228,7 @@ Comparaison de régression logistique, KNN, Random Forest et K-means sur **1 500
   <img src="assets/logos/sklearn.svg" width="26" alt="scikit-learn" title="scikit-learn">
 </p>
 
-Dernier projet du parcours : amélioration critique du P6 avec l'IA, veille technologique, cahier des charges, comparaison d'options, traçabilité des essais et construction du portfolio. Une application Streamlit de veille avec pré-classification locale par Qwen complète la démarche.
+Dernier projet du parcours : amélioration critique du P6 avec l'IA, veille technologique, cahier des charges, comparaison d'options, traçabilité des essais et construction du portfolio. Deux applications Streamlit locales complètent la démarche : la veille Data & IA et l'assistant de lecture du notebook de segmentation.
 
 **État actuel :** la partie portfolio est engagée ; l'amélioration IA du P6 reste à réaliser et sera documentée séparément avec ses prompts, variantes, décisions et limites.
 
@@ -243,6 +244,15 @@ Dernier projet du parcours : amélioration critique du P6 avec l'IA, veille tech
 Application Streamlit de collecte RSS/Atom, avec archivage SQLite, pré-classification locale par Qwen et traduction d'extraits RSS.
 
 ➡️ [Voir le projet](veille_data_ia/)
+
+---
+
+<a id="assistant-notebook-ia"></a>
+## <img src="assets/icons/p13-ai.svg" width="30" alt="Assistant IA de notebook"> Assistant IA de lecture de notebook
+
+Application Streamlit locale pour interroger un notebook Jupyter : code, documentation, sorties sauvegardées et graphiques. Un modèle Qwen compatible OpenAI répond à partir du contexte sélectionné ; l'administration permet aussi de remplacer le notebook avec sauvegarde préalable.
+
+➡️ [Voir le projet](assistant_notebook_ia/)
 
 ---
 

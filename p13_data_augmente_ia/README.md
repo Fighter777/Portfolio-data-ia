@@ -45,6 +45,12 @@ Une application de veille dédiée a été développée pour soutenir le projet 
 
 ➡️ [Voir la fiche de l'application de veille](../veille_data_ia/)
 
+## 🧭 Assistant IA du notebook de segmentation
+
+Une seconde application Streamlit accompagne le notebook amélioré : elle expose son code, ses sorties et ses graphiques, puis permet de l'interroger avec un modèle Qwen local. Le remplacement du notebook est protégé par mot de passe et sauvegardé avant toute modification.
+
+➡️ [Voir la fiche de l'assistant de notebook](../assistant_notebook_ia/)
+
 Critères possibles :
 - qualité ;
 - biais ;

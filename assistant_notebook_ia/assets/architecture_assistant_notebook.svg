@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Architecture de l'assistant IA de lecture de notebook</title>
+  <desc id="desc">Un notebook Jupyter embarqué est lu par une application Streamlit qui peut transmettre son contexte à un modèle Qwen local et afficher une réponse à l'utilisateur.</desc>
+  <defs><style>.box{stroke-width:2;rx:16}.label{font:700 22px Arial,sans-serif;fill:#102a43;text-anchor:middle}.small{font:16px Arial,sans-serif;fill:#486581;text-anchor:middle}.arrow{stroke:#486581;stroke-width:3;fill:none;marker-end:url(#arrow)}</style><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#486581"/></marker></defs>
+  <rect width="1200" height="380" fill="#f7fafc"/>
+  <rect x="55" y="120" width="230" height="130" class="box" fill="#e6fffa" stroke="#2c7a7b"/><text x="170" y="170" class="label">Notebook .ipynb</text><text x="170" y="202" class="small">code · texte · sorties</text><text x="170" y="226" class="small">graphiques enregistrés</text>
+  <rect x="400" y="90" width="280" height="190" class="box" fill="#ebf8ff" stroke="#2b6cb0"/><text x="540" y="142" class="label">Streamlit</text><text x="540" y="174" class="small">lecture et sélection</text><text x="540" y="198" class="small">du contexte</text><text x="540" y="232" class="small">chat · visualisation · admin</text>
+  <rect x="805" y="70" width="300" height="125" class="box" fill="#faf5ff" stroke="#805ad5"/><text x="955" y="120" class="label">Qwen local</text><text x="955" y="151" class="small">API compatible OpenAI</text><text x="955" y="175" class="small">réponse pédagogique</text>
+  <rect x="805" y="225" width="300" height="85" class="box" fill="#fffaf0" stroke="#c05621"/><text x="955" y="263" class="label">Administration</text><text x="955" y="288" class="small">mot de passe · sauvegarde</text>
+  <path d="M 290 185 H 390" class="arrow"/><path d="M 685 143 H 795" class="arrow"/><path d="M 795 170 H 685" class="arrow"/><path d="M 685 245 H 795" class="arrow"/>
+  <text x="540" y="340" class="small">Les réponses sont fondées sur le contenu chargé ; le notebook n'est pas exécuté par l'application.</text>
+</svg>
