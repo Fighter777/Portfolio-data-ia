@@ -69,7 +69,7 @@ Construction d'un modèle relationnel à partir d'un besoin de gestion : diction
 
 Le projet documente le chemin complet **modélisation → chargement → vérification → interrogation SQL**.
 
-➡️ [Voir le projet et les livrables](https://github.com/Fighter777/Portfolio-data-ia/blob/main/p3_modelisation_sql/)
+➡️ [Voir le projet et les livrables](https://github.com/Fighter777/Portfolio-data-ia/tree/main/p3_modelisation_sql/)
 
 ---
 
@@ -86,7 +86,7 @@ Analyse exploratoire de **quatre jeux de données FAO** : population, disponibil
 
 > **Point clé —** les résultats sont présentés dans leur contexte statistique, sans transformer une corrélation descriptive en relation causale.
 
-➡️ [Voir le projet et les visualisations](https://github.com/Fighter777/Portfolio-data-ia/blob/main/p4_etude_sante_publique/)
+➡️ [Voir le projet et les visualisations](https://github.com/Fighter777/Portfolio-data-ia/tree/main/p4_etude_sante_publique/)
 
 ---
 
@@ -99,7 +99,7 @@ Analyse exploratoire de **quatre jeux de données FAO** : population, disponibil
 
 Structuration d'une base immobilière reliant ventes, biens, communes, départements et régions. Les requêtes permettent ensuite d'étudier les volumes de transactions, les prix régionaux et les prix au m².
 
-➡️ [Voir le projet et le schéma relationnel](https://github.com/Fighter777/Portfolio-data-ia/blob/main/p5_donnees_immobilieres/)
+➡️ [Voir le projet et le schéma relationnel](https://github.com/Fighter777/Portfolio-data-ia/tree/main/p5_donnees_immobilieres/)
 
 ---
 
@@ -116,7 +116,7 @@ Réconciliation de trois sources ERP / e-commerce puis analyse des prix, ventes,
 
 > **Résultat —** sur **825 références ERP**, **714 produits** sont rapprochés avec les données web et **111 références** restent à investiguer. L'analyse met aussi en évidence les références à forte couverture de stock.
 
-➡️ [Voir le projet et les analyses](https://github.com/Fighter777/Portfolio-data-ia/blob/main/p6_analyse_catalogue_caviste/)
+➡️ [Voir le projet et les analyses](https://github.com/Fighter777/Portfolio-data-ia/tree/main/p6_analyse_catalogue_caviste/)
 
 ---
 
@@ -130,10 +130,10 @@ Réconciliation de trois sources ERP / e-commerce puis analyse des prix, ventes,
 Conception d'un dashboard Power BI pour suivre les projets IT et Marketing de l'entreprise fictive **Sanitoral** : coûts, délais, livrables et projets en alerte, avec navigation du niveau global jusqu'au détail projet.
 
 <p align="center">
-  <a href="https://github.com/Fighter777/Portfolio-data-ia/blob/main/p7_tableau_bord_powerbi/"><img src="https://raw.githubusercontent.com/Fighter777/Portfolio-data-ia/main/p7_tableau_bord_powerbi/assets/tableau_bord_vue_globale.png" width="720" alt="Vue globale du tableau de bord Sanitoral"></a>
+  <a href="https://github.com/Fighter777/Portfolio-data-ia/tree/main/p7_tableau_bord_powerbi/"><img src="https://raw.githubusercontent.com/Fighter777/Portfolio-data-ia/main/p7_tableau_bord_powerbi/assets/tableau_bord_vue_globale.png" width="720" alt="Vue globale du tableau de bord Sanitoral"></a>
 </p>
 
-➡️ [Voir le projet Power BI](https://github.com/Fighter777/Portfolio-data-ia/blob/main/p7_tableau_bord_powerbi/)
+➡️ [Voir le projet Power BI](https://github.com/Fighter777/Portfolio-data-ia/tree/main/p7_tableau_bord_powerbi/)
 
 ---
 
@@ -150,7 +150,7 @@ Pipeline Data Engineering sur **4 646 inscrits**, enrichis par des données INSE
 
 > **Résultat —** le pipeline produit une table sociodémographique consolidée et exécute avec succès **43 modèles/tests/vérifications** lors du `dbt build` documenté.
 
-➡️ [Voir le pipeline et le lineage dbt](https://github.com/Fighter777/Portfolio-data-ia/blob/main/p8_pipeline_sociodemographique/)
+➡️ [Voir le pipeline et le lineage dbt](https://github.com/Fighter777/Portfolio-data-ia/tree/main/p8_pipeline_sociodemographique/)
 
 ---
 
@@ -166,7 +166,7 @@ Pipeline Data Engineering sur **4 646 inscrits**, enrichis par des données INSE
 
 Application Streamlit permettant d'explorer les ventes, les KPI, les produits et les profils clients de la librairie fictive **LaPage**, avec filtres temporels et analyses statistiques complémentaires.
 
-➡️ [Voir le dashboard et les notebooks](https://github.com/Fighter777/Portfolio-data-ia/blob/main/p9_analyse_ventes_lapage/)
+➡️ [Voir le dashboard et les notebooks](https://github.com/Fighter777/Portfolio-data-ia/tree/main/p9_analyse_ventes_lapage/)
 
 ---
 
@@ -181,7 +181,7 @@ Tableau de bord de priorisation pour l'organisation fictive **DWFA**. Les indica
 
 Le dashboard associe cartes, lecture régionale et matrice de priorisation afin d'orienter l'analyse vers les zones nécessitant une étude plus approfondie.
 
-➡️ [Voir le projet et les cartes](https://github.com/Fighter777/Portfolio-data-ia/blob/main/p10_acces_eau_potable/)
+➡️ [Voir le projet et les cartes](https://github.com/Fighter777/Portfolio-data-ia/tree/main/p10_acces_eau_potable/)
 
 ---
 
@@ -198,7 +198,7 @@ Le dashboard associe cartes, lecture régionale et matrice de priorisation afin 
 
 > **Résultat —** **quatre profils de marchés** sont retenus ; la recommandation privilégie les marchés riches, stables et importateurs, puis les marchés intermédiaires équilibrés.
 
-➡️ [Voir l'étude, l'ACP et le clustering](https://github.com/Fighter777/Portfolio-data-ia/blob/main/p11_etude_marche_internationale/)
+➡️ [Voir l'étude, l'ACP et le clustering](https://github.com/Fighter777/Portfolio-data-ia/tree/main/p11_etude_marche_internationale/)
 
 ---
 
@@ -215,7 +215,7 @@ Comparaison de régression logistique, KNN, Random Forest et K-means sur **1 500
 
 > **Résultat —** avec le modèle retenu et un seuil de **0,65**, les essais atteignent **100 % de rappel sur les faux billets** du jeu de test, au prix de trois vrais billets classés comme suspects. Ce seuil reste à revalider sur données indépendantes.
 
-➡️ [Voir le projet, le modèle et la matrice de confusion](https://github.com/Fighter777/Portfolio-data-ia/blob/main/p12_detection_faux_billets/)
+➡️ [Voir le projet, le modèle et la matrice de confusion](https://github.com/Fighter777/Portfolio-data-ia/tree/main/p12_detection_faux_billets/)
 
 ---
 
@@ -232,7 +232,7 @@ Dernier projet du parcours : amélioration critique du P6 avec l'IA, veille tech
 
 **État actuel :** la Mission 1 est en finalisation : la documentation de la démarche, le notebook de segmentation, le support métier et les documents de mission sont disponibles dans le dépôt [P13](https://github.com/Fighter777/P13). L’amélioration du P6 trace les essais, les décisions, les limites et l’usage de l’IA.
 
-➡️ [Voir l'état du P13](https://github.com/Fighter777/Portfolio-data-ia/blob/main/p13_data_augmente_ia/)
+➡️ [Voir l'état du P13](https://github.com/Fighter777/Portfolio-data-ia/tree/main/p13_data_augmente_ia/)
 
 ---
 
@@ -243,7 +243,7 @@ Dernier projet du parcours : amélioration critique du P6 avec l'IA, veille tech
 
 Application Streamlit de collecte RSS/Atom, avec archivage SQLite, pré-classification locale par Qwen et traduction d'extraits RSS.
 
-➡️ [Voir le projet](https://github.com/Fighter777/Portfolio-data-ia/blob/main/veille_data_ia/)
+➡️ [Voir le projet](https://github.com/Fighter777/Portfolio-data-ia/tree/main/veille_data_ia/)
 
 ---
 
@@ -252,7 +252,7 @@ Application Streamlit de collecte RSS/Atom, avec archivage SQLite, pré-classifi
 
 Application Streamlit locale pour interroger un notebook Jupyter : code, documentation, sorties sauvegardées et graphiques. Un modèle Qwen compatible OpenAI répond à partir du contexte sélectionné ; l'administration permet aussi de remplacer le notebook avec sauvegarde préalable.
 
-➡️ [Voir le projet](https://github.com/Fighter777/Portfolio-data-ia/blob/main/assistant_notebook_ia/)
+➡️ [Voir le projet](https://github.com/Fighter777/Portfolio-data-ia/tree/main/assistant_notebook_ia/)
 
 ---
 
@@ -271,10 +271,10 @@ Application locale destinée à transformer de longues réunions en documents ex
 > **Contrôle qualité —** les **30 segments acoustiquement les moins fiables** sont remontés pour réécoute et redécodage ciblé, sans retraiter l'intégralité de la réunion.
 
 <p align="center">
-  <a href="https://github.com/Fighter777/Portfolio-data-ia/blob/main/transcription_locale_reunions/"><img src="https://raw.githubusercontent.com/Fighter777/Portfolio-data-ia/main/transcription_locale_reunions/assets/relecture_ciblee_transcription.jpg" width="760" alt="Relecture ciblée d'un segment de transcription"></a>
+  <a href="https://github.com/Fighter777/Portfolio-data-ia/tree/main/transcription_locale_reunions/"><img src="https://raw.githubusercontent.com/Fighter777/Portfolio-data-ia/main/transcription_locale_reunions/assets/relecture_ciblee_transcription.jpg" width="760" alt="Relecture ciblée d'un segment de transcription"></a>
 </p>
 
-➡️ [Voir l'application et son pipeline](https://github.com/Fighter777/Portfolio-data-ia/blob/main/transcription_locale_reunions/)
+➡️ [Voir l'application et son pipeline](https://github.com/Fighter777/Portfolio-data-ia/tree/main/transcription_locale_reunions/)
 
 ---
 
@@ -294,10 +294,10 @@ Prototype fonctionnel combinant application Flutter et API FastAPI : **voix → 
 Chaque requête est historisée et les étapes du pipeline sont journalisées avec leur durée, ce qui permet d'observer les latences réelles plutôt que d'annoncer une valeur théorique unique.
 
 <p align="center">
-  <a href="https://github.com/Fighter777/Portfolio-data-ia/blob/main/vocal_weather/"><img src="https://raw.githubusercontent.com/Fighter777/Portfolio-data-ia/main/vocal_weather/assets/architecture_pipeline_vocal_weather.png" width="760" alt="Architecture du pipeline Vocal Weather"></a>
+  <a href="https://github.com/Fighter777/Portfolio-data-ia/tree/main/vocal_weather/"><img src="https://raw.githubusercontent.com/Fighter777/Portfolio-data-ia/main/vocal_weather/assets/architecture_pipeline_vocal_weather.png" width="760" alt="Architecture du pipeline Vocal Weather"></a>
 </p>
 
-➡️ [Voir le prototype](https://github.com/Fighter777/Portfolio-data-ia/blob/main/vocal_weather/)
+➡️ [Voir le prototype](https://github.com/Fighter777/Portfolio-data-ia/tree/main/vocal_weather/)
 
 ---
 
@@ -315,10 +315,10 @@ Pipeline de vision combinant détection d'animaux, classification d'espèces et 
 > **Résultat —** le modèle de référence **ConvNeXt-Small v4 atteint 91,11 % d'accuracy** sur **4 094 images de test**, après entraînement sur **19 061 images** couvrant 12 espèces locales.
 
 <p align="center">
-  <a href="https://github.com/Fighter777/Portfolio-data-ia/blob/main/detection_especes_animales/"><img src="https://raw.githubusercontent.com/Fighter777/Portfolio-data-ia/main/detection_especes_animales/assets/detection_oiseaux_video_annotee.png" width="760" alt="Détection et identification d'oiseaux sur une vidéo de mangeoire"></a>
+  <a href="https://github.com/Fighter777/Portfolio-data-ia/tree/main/detection_especes_animales/"><img src="https://raw.githubusercontent.com/Fighter777/Portfolio-data-ia/main/detection_especes_animales/assets/detection_oiseaux_video_annotee.png" width="760" alt="Détection et identification d'oiseaux sur une vidéo de mangeoire"></a>
 </p>
 
-➡️ [Voir le projet et le suivi des entraînements](https://github.com/Fighter777/Portfolio-data-ia/blob/main/detection_especes_animales/)
+➡️ [Voir le projet et le suivi des entraînements](https://github.com/Fighter777/Portfolio-data-ia/tree/main/detection_especes_animales/)
 
 ---
 
@@ -335,7 +335,7 @@ Conception d'un atelier de **45 minutes** pour Place du Numérique 2026. Six dé
 
 **Démonstrations :** assistant météo vocal · classification d'oiseaux · comptage de véhicules · reconnaissance faciale · face swap · conversion vocale.
 
-➡️ [Voir l'atelier et les supports PDF](https://github.com/Fighter777/Portfolio-data-ia/blob/main/atelier_ia_place_du_numerique/)
+➡️ [Voir l'atelier et les supports PDF](https://github.com/Fighter777/Portfolio-data-ia/tree/main/atelier_ia_place_du_numerique/)
 
 ---
 
@@ -352,7 +352,7 @@ Essai d'OCR sur un bulletin technique CIMA de 1957. La dégradation du support, 
 
 > **Décision technique —** ne pas présenter un traitement non fiable comme une solution aboutie ; conserver l'essai comme retour d'expérience sur les limites de l'OCR.
 
-➡️ [Voir le retour d'expérience](https://github.com/Fighter777/Portfolio-data-ia/blob/main/ocr_documentaire/)
+➡️ [Voir le retour d'expérience](https://github.com/Fighter777/Portfolio-data-ia/tree/main/ocr_documentaire/)
 
 ---
 
@@ -368,7 +368,7 @@ Essai d'OCR sur un bulletin technique CIMA de 1957. La dégradation du support, 
 
 Instrumentation prévue avec **2 EVAL-ADXL357Z**, ESP32 et vitesse véhicule OBD2 afin de corréler accélérations, vitesse et fréquences dominantes. La campagne instrumentée sur véhicule reste à réaliser.
 
-➡️ [Voir le protocole et le schéma d'acquisition](https://github.com/Fighter777/Portfolio-data-ia/blob/main/diagnostic_vibrations_automobile/)
+➡️ [Voir le protocole et le schéma d'acquisition](https://github.com/Fighter777/Portfolio-data-ia/tree/main/diagnostic_vibrations_automobile/)
 
 ---
 
@@ -382,10 +382,10 @@ Conception d'un tracker GNSS/LoRa/BLE adapté à un animal, avec adaptation des 
 > **Essai terrain —** des cartes Heltec WiFi LoRa 32 V3 / SX1262 avec antennes d'origine ont atteint environ **2,5 km** dans les conditions du test avec **SF10**. Les anciennes estimations d'autonomie restent explicitement séparées des futures mesures sur prototype final.
 
 <p align="center">
-  <a href="https://github.com/Fighter777/Portfolio-data-ia/blob/main/collier_gps_lora/"><img src="https://raw.githubusercontent.com/Fighter777/Portfolio-data-ia/main/collier_gps_lora/assets/maquette_interface_lora_gps.png" width="360" alt="Maquette de suivi GPS LoRa"></a>
+  <a href="https://github.com/Fighter777/Portfolio-data-ia/tree/main/collier_gps_lora/"><img src="https://raw.githubusercontent.com/Fighter777/Portfolio-data-ia/main/collier_gps_lora/assets/maquette_interface_lora_gps.png" width="360" alt="Maquette de suivi GPS LoRa"></a>
 </p>
 
-➡️ [Voir le projet R&D](https://github.com/Fighter777/Portfolio-data-ia/blob/main/collier_gps_lora/)
+➡️ [Voir le projet R&D](https://github.com/Fighter777/Portfolio-data-ia/tree/main/collier_gps_lora/)
 
 ---
 
@@ -398,7 +398,7 @@ Conception d'un tracker GNSS/LoRa/BLE adapté à un animal, avec adaptation des 
 
 > **Verrou identifié —** la détection fiable constitue le principal problème ; une reconstruction 3D complète n'est pas nécessairement indispensable si la zone de détection peut être contrainte.
 
-➡️ [Voir le schéma conceptuel](https://github.com/Fighter777/Portfolio-data-ia/blob/main/rnd_detection_moustiques/)
+➡️ [Voir le schéma conceptuel](https://github.com/Fighter777/Portfolio-data-ia/tree/main/rnd_detection_moustiques/)
 
 ---
 
@@ -414,7 +414,7 @@ Conception d'un tracker GNSS/LoRa/BLE adapté à un animal, avec adaptation des 
 
 Expérimentation de modèles exécutés localement pour des usages de développement : compatibilité, vitesse, mémoire, respect des consignes et comportement sur du code. Les essais existent, mais le benchmark reproductible reste à formaliser avant publication de conclusions comparatives.
 
-➡️ [Voir l'état de l'étude](https://github.com/Fighter777/Portfolio-data-ia/blob/main/evaluation_llm_locaux/)
+➡️ [Voir l'état de l'étude](https://github.com/Fighter777/Portfolio-data-ia/tree/main/evaluation_llm_locaux/)
 
 ---
 
@@ -427,7 +427,7 @@ Expérimentation de modèles exécutés localement pour des usages de développe
 
 Le projet reste volontairement au stade de l'étude : aucune batterie résidentielle complète n'est présentée comme réalisée ou validée.
 
-➡️ [Voir l'étude et le schéma conceptuel](https://github.com/Fighter777/Portfolio-data-ia/blob/main/rnd_batterie_residentielle_diy/)
+➡️ [Voir l'étude et le schéma conceptuel](https://github.com/Fighter777/Portfolio-data-ia/tree/main/rnd_batterie_residentielle_diy/)
 
 ---
 
